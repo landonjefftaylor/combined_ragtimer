@@ -1,0 +1,10 @@
+model models/12react/model.sm
+trace paths/other/12trace_list.txt
+property CodY = 20
+recursionBound 15
+timeBound 10
+flexibility 0.3
+terminate depth
+cycleLength 0
+export both
+verbose false
