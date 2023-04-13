@@ -68,7 +68,7 @@ public class GetProbability
       double totalProbability = 0.0;
 		
       // read the CSL property for making sure we end up in a target state
-      FileReader fr_p = new FileReader("../model.csl");
+      FileReader fr_p = new FileReader("../model.prop"); //TODO: Make it clear this is prop now
       BufferedReader br_p = new BufferedReader(fr_p);
       String x_p;
       x_p = br_p.readLine();

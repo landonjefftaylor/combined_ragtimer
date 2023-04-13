@@ -31,8 +31,9 @@ if __name__ == "__main__":
     if "loose" in sys.argv:
         loose = True
 
-    if "--commute" in sys.argv:
+    if "commute" in sys.argv:
         COMMUTE = True
+
 
     print("Constructing a dependency graph")
     reactions1 = depgraph.makeDepGraph(reactions_v5.Options.infile, printing=PRINTING)
@@ -68,6 +69,9 @@ if __name__ == "__main__":
     # print(paths)
     # quit()
     
+    print(os.getcwd())
+    o = subprocess.check_output(["make"], universal_newlines=True)
+    # o = subprocess.check_output(["make", "test"], universal_newlines=True) #uncomment to show errors, if there are any
     o = subprocess.check_output(["make", "test"], universal_newlines=True, stderr=subprocess.DEVNULL)
     prefix = prefix_parser.parsePrefix(o)
     
@@ -140,16 +144,19 @@ if __name__ == "__main__":
     j = len(prefix.values)
 
     iters = i
+    print("Finding", iters)
 
     if not each:
         # we will do AT LEAST as many total paths as they ask for
         iters = math.ceil(float(i) / float(j))
+        print("For each prefix:", iters)
 
     prob = float(0.0)
 
     if COMMUTE:
         with open("../commute_traces.txt", "w") as ct:
             ct.write("")
+        print("WROTE")
 
     for a in range(len(paths)):
         print(50*"-")
@@ -163,16 +170,15 @@ if __name__ == "__main__":
                 with open("../commute_traces.txt", "a") as ct:
                     for line in traceList:
                         ct.write(line.strip() + "\n")
+                        print(line.split()[0:3])
         else:
             o = subprocess.check_output(["make", "test"], universal_newlines=True, stderr=subprocess.DEVNULL)
-        # print(o)
-
-        for line in o.splitlines(False):
-            if "Total" in line:
-                prob += float(line.split(": ")[1])
-                print(line.replace("Total probability", "Probability in this prefix"))
-
-        print("Running total probability: ", prob)
+            for line in o.splitlines(False):
+                if "Total" in line:
+                    prob += float(line.split(": ")[1])
+                    print(line.replace("Total probability", "Probability in this prefix"))
+            # print(o)
+            print("Running total probability: ", prob)
 
     print()
     print(80*"=")

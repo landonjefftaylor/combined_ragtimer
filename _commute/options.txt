@@ -1,10 +1,10 @@
-model models/12react/model.sm
-trace paths/other/12trace_list.txt
-property CodY = 20
-recursionBound 15
-timeBound 10
-flexibility 0.3
+model ../model.sm
+trace ../commute_traces.txt
+property gbg = 50
+recursionBound 5
+timeBound 100000
+flexbility 0.0
 terminate depth
 cycleLength 0
-export both
+export prism
 verbose false
