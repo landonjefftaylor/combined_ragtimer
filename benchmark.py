@@ -36,6 +36,8 @@ for model in modelArr:
             with open(folder + "/timestamp.txt", "w") as f:
                 f.write(str(datetime.now()))
 
+            input("works? enter for yes.")
+
 
 # Not commuting, just trace generation
 for model in modelArr:
