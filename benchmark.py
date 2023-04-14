@@ -10,6 +10,7 @@ recBoundArr = ["2", "10", "20"]
 
 # Not commuting, just trace generation
 for model in modelArr:
+    os.system("mkdir results/ragtimer/" + model)
     for loose in looseArr:
         for qty in qtyArr:
 
@@ -32,12 +33,13 @@ for model in modelArr:
             os.system("mv " + model + ".ragtimer model.ragtimer")
             
             # run ragtimer (incl. getting time)
-            command = ["/usr/bin/time", "-o", "ragtimer_time.txt", "python3", "ragtimer.py", loose, "qty", qty, ">", "ragtimer_output.txt"]
-            print("running " + " ".join(command))
-            subprocess.run(command)
+            with open("ragtimer_output.txt", "w") as rto:
+                command = ["/usr/bin/time", "-o", "ragtimer_time.txt", "python3", "ragtimer.py", loose, "qty", qty, ">", "ragtimer_output.txt"]
+                print("running " + " ".join(command))
+                subprocess.run(command, stdout=rto, stderr=subprocess.DEVNULL)
 
             # copy models and results into results folder
-            folder = "results/ragtimer/" + qty + "_" + loose
+            folder = "results/ragtimer/" + model + "/" + qty + "_" + loose
             os.system("mkdir " + folder)
             os.system("cp model.* " + folder)
             os.system("cp *.txt " + folder)
@@ -50,6 +52,7 @@ for model in modelArr:
 
 # Not commuting, just trace generation
 for model in modelArr:
+    os.system("mkdir results/ragtimer/" + model)
     for cycle in cycleArr:
         for loose in looseArr:
             for recBound in recBoundArr:
@@ -74,17 +77,18 @@ for model in modelArr:
                     os.system("mv " + model + ".ragtimer model.ragtimer")
                     
                     # run ragtimer (incl. getting time)
-                    command = ["/usr/bin/time", "-o", "ragtimer_time.txt", "python3", "ragtimer.py", "commute", loose, "qty", qty, "bound", "r", "recbound", recBound, "cycle", cycle, ">", "ragtimer_output.txt"]
-                    print("running " + " ".join(command))
-                    subprocess.run(command)
-
+                    with open("ragtimer_output.txt", "w") as rto:
+                        command = ["/usr/bin/time", "-o", "ragtimer_time.txt", "python3", "ragtimer.py", "commute", loose, "qty", qty, "bound", "r", "recbound", recBound, "cycle", cycle, ">", "ragtimer_output.txt"]
+                        print("running " + " ".join(command))
+                    subprocess.run(command, stdout=rto, stderr=subprocess.DEVNULL)
+                    
                     # run prism (and get time)
                     command = "/usr/bin/time -o prism_time.txt prism -importmodel _commute/prism.tra,sta,lab -ctmc model.csl".split()
                     print("running " + " ".join(command))
                     subprocess.run(command)
 
                     # copy models and results into results folder
-                    folder = "results/ragtimer/q" + qty + "_r" + recBound + "_c" + cycle + "_" + loose
+                    folder = "results/commute/" + model + "/q" + qty + "_r" + recBound + "_c" + cycle + "_" + loose
                     os.system("mkdir " + folder)
                     os.system("cp model.* " + folder)
                     os.system("cp *.txt " + folder)
