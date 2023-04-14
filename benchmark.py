@@ -22,6 +22,14 @@ for model in modelArr:
             # copy over the models
             print("cp models/" + model + "/" + model + ".* .")
             os.system("cp models/" + model + "/" + model + ".* .")
+            print("mv " + model + ".sm model.sm")
+            os.system("mv " + model + ".sm model.sm")
+            print("mv " + model + ".csl model.csl")
+            os.system("mv " + model + ".csl model.csl")
+            print("mv " + model + ".prop model.prop")
+            os.system("mv " + model + ".prop model.prop")
+            print("mv " + model + ".ragtimer model.ragtimer")
+            os.system("mv " + model + ".ragtimer model.ragtimer")
             
             # run ragtimer (incl. getting time)
             command = ["/usr/bin/time", "-o", "ragtimer_time.txt", "python3", "ragtimer.py", loose, "qty", qty, ">", "ragtimer_output.txt"]
