@@ -12,6 +12,13 @@ recBoundArr = ["2", "10", "20"]
 for model in modelArr:
     for loose in looseArr:
         for qty in qtyArr:
+
+            print()
+            print()
+            print(80*"*")
+            print(80*"*")
+            print(80*"*")
+
             # copy over the models
             os.system("cp models/" + model + "/" + model + ".* .")
             
@@ -36,6 +43,13 @@ for model in modelArr:
         for loose in looseArr:
             for recBound in recBoundArr:
                 for qty in qtyArr:
+                    
+                    print()
+                    print()
+                    print(80*"*")
+                    print(80*"*")
+                    print(80*"*")
+                    
                     # copy over the models
                     os.system("cp models/" + model + "/" + model + ".* .")
                     

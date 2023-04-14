@@ -138,6 +138,7 @@ if __name__ == "__main__":
     print("Running RAGTIMER trace generation")
     try:
         # os.system(command)
+        print(os.curdir)
         subprocess.call(command.split())
     except:
         print("If you see a lot of errors here, you may need to edit the Makefile in directory _ragtimer to point to your accurate PRISM directory.")
