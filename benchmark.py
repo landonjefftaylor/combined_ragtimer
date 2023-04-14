@@ -43,6 +43,7 @@ for model in modelArr:
             folder = "results/ragtimer/" + model + "/" + qty + "_" + loose
             os.system("mkdir " + folder)
             os.system("cp model.* " + folder)
+            os.system("ls *.txt")
             os.system("cp *.txt " + folder)
             os.system("cp *.py " + folder)
             with open(folder + "/timestamp.txt", "w") as f:
