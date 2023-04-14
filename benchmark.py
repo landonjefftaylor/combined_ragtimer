@@ -85,8 +85,11 @@ for model in modelArr:
                     
                     # run prism (and get time)
                     command = "/usr/bin/time -o prism_time.txt prism -importmodel _commute/prism.tra,sta,lab -ctmc model.csl".split()
+                    # print("running " + " ".join(command))
+                    # subprocess.run(command)
                     print("running " + " ".join(command))
-                    subprocess.run(command)
+                    # subprocess.run(command, stdout=rto, stderr=subprocess.DEVNULL)
+                    os.system(" ".join(command))
 
                     # copy models and results into results folder
                     folder = "results/commute/" + model + "/q" + qty + "_r" + recBound + "_c" + cycle + "_" + loose
