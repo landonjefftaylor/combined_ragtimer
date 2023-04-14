@@ -113,19 +113,19 @@ if __name__ == "__main__":
     loose = False
     if "loose" in sys.argv:
         loose = True
-    else:
+    elif interactive:
         loose = y in input("Would you like to add the loose command to RAGTIMER? y/n ").lower()
 
     each = False
     if "each" in sys.argv:
         each = True
-    else:
+    elif interactive:
         each = y in input("Would you like to add the each command to RAGTIMER? y/n ").lower()
 
     qty = 0
     if "qty" in sys.argv:
         qty = int(sys.argv[sys.argv.index("qty") + 1])
-    else:
+    elif interactive:
         qty = int(input("How many traces to generate (type an integer) "))
 
     command = "python3 main.py " + str(qty)
