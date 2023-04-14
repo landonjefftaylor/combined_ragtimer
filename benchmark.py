@@ -20,6 +20,7 @@ for model in modelArr:
             print(80*"*")
 
             # copy over the models
+            print("cp models/" + model + "/" + model + ".* .")
             os.system("cp models/" + model + "/" + model + ".* .")
             
             # run ragtimer (incl. getting time)
