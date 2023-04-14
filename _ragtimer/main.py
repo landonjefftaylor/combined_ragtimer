@@ -153,10 +153,10 @@ if __name__ == "__main__":
 
     prob = float(0.0)
 
-    if COMMUTE:
-        with open("../commute_traces.txt", "w") as ct:
-            ct.write("")
-        print("WROTE")
+    # if COMMUTE:
+    with open("../commute_traces.txt", "w") as ct:
+        ct.write("")
+        # print("WROTE")
 
     for a in range(len(paths)):
         print(50*"-")
@@ -165,13 +165,13 @@ if __name__ == "__main__":
 
         reactions_v5.randTest(iters, reactions1, prefix, a, loose=loose, printing=PRINTING)
         # os.system("make test")
-        if COMMUTE:
-            with open("trace_list.txt", "r") as traceList:
-                with open("../commute_traces.txt", "a") as ct:
-                    for line in traceList:
-                        ct.write(line.strip() + "\n")
-                        print(line.split()[0:3])
-        else:
+        # if COMMUTE:
+        with open("trace_list.txt", "r") as traceList:
+            with open("../commute_traces.txt", "a") as ct:
+                for line in traceList:
+                    ct.write(line.strip() + "\n")
+                    # print(line.split()[0:3])
+        if (not COMMUTE):
             o = subprocess.check_output(["make", "test"], universal_newlines=True, stderr=subprocess.DEVNULL)
             for line in o.splitlines(False):
                 if "Total" in line:
