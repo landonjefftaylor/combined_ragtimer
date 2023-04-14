@@ -52,7 +52,7 @@ for model in modelArr:
 
 # Not commuting, just trace generation
 for model in modelArr:
-    os.system("mkdir results/ragtimer/" + model)
+    os.system("mkdir results/commute/" + model)
     for cycle in cycleArr:
         for loose in looseArr:
             for recBound in recBoundArr:
@@ -97,7 +97,7 @@ for model in modelArr:
                     os.system("cp *.txt " + folder)
                     os.system("cp *.py " + folder)
                     os.system("cp _commute/prism.* " + folder)
-                    with open(folder + "/timestamp.txt", "w") as f:
+                    with open(folder + "timestamp.txt", "w") as f:
                         f.write(str(datetime.now()))
                     
                     
