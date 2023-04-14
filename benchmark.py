@@ -34,7 +34,7 @@ for model in modelArr:
             
             # run ragtimer (incl. getting time)
             # with open("ragtimer_output.txt", "w") as rto:
-            command = ["/usr/bin/time", "-o", "ragtimer_time.txt", "python3", "ragtimer.py", loose, "qty", qty, ">", "ragtimer_output.txt"]
+            command = ["/usr/bin/time", "-o", "ragtimer_time.txt", "python3", "ragtimer.py", loose, "qty", qty, "1>", "ragtimer_output.txt", "2>", "/deb/null"]
             print("running " + " ".join(command))
             # subprocess.run(command, stdout=rto, stderr=subprocess.DEVNULL)
             os.system(" ".join(command))
@@ -79,7 +79,7 @@ for model in modelArr:
                     
                     # run ragtimer (incl. getting time)
                     with open("ragtimer_output.txt", "w") as rto:
-                        command = ["/usr/bin/time", "-o", "ragtimer_time.txt", "python3", "ragtimer.py", "commute", loose, "qty", qty, "bound", "r", "recbound", recBound, "cycle", cycle, ">", "ragtimer_output.txt"]
+                        command = ["/usr/bin/time", "-o", "ragtimer_time.txt", "python3", "ragtimer.py", "commute", loose, "qty", qty, "bound", "r", "recbound", recBound, "cycle", cycle, "1>", "ragtimer_output.txt", "2>", "/dev/null"]
                         print("running " + " ".join(command))
                         subprocess.run(command, stdout=rto, stderr=subprocess.DEVNULL)
                     
