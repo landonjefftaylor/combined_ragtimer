@@ -27,7 +27,7 @@ for model in modelArr:
             os.system("cp *.txt " + folder)
             os.system("cp *.py " + folder)
             with open(folder + "/timestamp.txt", "w") as f:
-                f.write(datetime.now())
+                f.write(str(datetime.now()))
 
 
 # Not commuting, just trace generation
@@ -57,6 +57,6 @@ for model in modelArr:
                     os.system("cp *.py " + folder)
                     os.system("cp _commute/prism.* " + folder)
                     with open(folder + "/timestamp.txt", "w") as f:
-                        f.write(datetime.now())
+                        f.write(str(datetime.now()))
                     
                     
