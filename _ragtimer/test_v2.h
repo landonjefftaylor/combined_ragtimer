@@ -31,7 +31,6 @@ struct ivy_gen {virtual int choose(int rng,const char *name) = 0;};
 
 #include <string>
 #include <vector>
-#include <map>
 #include <iterator>
 #include <fstream>
 
@@ -110,19 +109,6 @@ namespace hash_space {
             size_t res = 0;
             for (unsigned i = 0; i < p.size(); i++)
                 res += h(p[i]);
-            return res;
-        }
-    };
-
-    template <typename K, typename V>
-        class hash<std::map<K,V> > {
-    public:
-        size_t operator()(const std::map<K,V> &p) const {
-            hash<K> hk;
-            hash<V> hv;
-            size_t res = 0;
-            for (typename std::map<K,V>::const_iterator it = p.begin(), en = p.end(); it != en; ++it)
-                res += hk(it->first) + hv(it->second);
             return res;
         }
     };
@@ -634,58 +620,106 @@ class test_v2 {
     virtual void ivy_assert(bool,const char *){}
     virtual void ivy_assume(bool,const char *){}
     virtual void ivy_check_progress(int,int){}
-    unsigned protocol__r3_executions;
-    unsigned protocol__r5_executions;
-    unsigned protocol__r_rl;
-    unsigned selector__r5_count;
-    unsigned selector__r5_stage;
-    unsigned protocol__r_ga;
-    unsigned selector__r8_exec;
+    unsigned selector__r4_exec;
+    unsigned selector__r2_stage;
+    unsigned selector__r6_exec;
+    unsigned selector__r7_count;
+    unsigned selector__r1_exec;
+    unsigned selector__r1_count_rate;
     unsigned selector__r8_count;
-    bool _generating;
     unsigned selector__r5_count_rate;
     unsigned selector__r8_count_rate;
-    unsigned selector__r5_rate;
+    unsigned selector__r1_count;
+    unsigned selector__r6_rate;
+    unsigned selector__r5_stage;
+    unsigned selector__r8_stage;
+    unsigned selector__r4_count_rate;
+    unsigned selector__r3_count_rate;
+    unsigned selector__r4_rate;
+    unsigned protocol__r_G_bg;
+    unsigned selector__r5_exec;
+    unsigned selector__r2_count;
+    unsigned protocol__r_G_d;
+    unsigned selector__r1_stage;
+    unsigned selector__r6_stage;
+    unsigned selector__r4_stage;
+    unsigned selector__r3_count;
+    unsigned protocol__r_RL;
+    unsigned selector__r5_count;
+    unsigned selector__r7_count_rate;
+    unsigned selector__r2_count_rate;
+    unsigned selector__r8_exec;
+    unsigned protocol__r_G_;
+    unsigned protocol__r_G_a;
+    unsigned selector__r6_count;
+    unsigned selector__r7_stage;
+    bool _generating;
+    unsigned protocol__r_R_;
+    unsigned selector__r2_exec;
     unsigned selector__r8_rate;
+    unsigned selector__r5_rate;
+    unsigned selector__r6_count_rate;
     unsigned selector__r3_rate;
     unsigned selector__r3_stage;
     unsigned protocol__idle;
-    unsigned selector__r8_stage;
-    unsigned selector__r3_count_rate;
-    unsigned selector__r3_count;
-    unsigned protocol__r_r;
-    unsigned protocol__r_l;
+    unsigned protocol__r_L;
+    unsigned selector__r4_count;
     unsigned selector__r3_exec;
-    unsigned protocol__r_gbg;
-    unsigned selector__r5_exec;
-    unsigned protocol__r_g;
-    unsigned protocol__r8_executions;
+    unsigned selector__r7_exec;
+    unsigned selector__r7_rate;
+    unsigned selector__r2_rate;
+    unsigned selector__r1_rate;
     long long __CARD__protocol__2bit;
     long long __CARD__updater__exec_stage;
     long long __CARD__updater__num;
     long long __CARD__updater__exec_var;
     test_v2();
-void __init();
-    virtual void ext__protocol__update_r8();
-    virtual bool selector__execute_r8();
-    virtual bool selector__execute_r3();
-    virtual void ext__protocol__update_r3();
+    virtual bool selector__execute_r7();
     virtual void goal__achieved(unsigned v);
-    virtual void ext__protocol__update_r5();
-    virtual bool selector__execute_r5();
-    virtual void imp__goal__achieved(unsigned v);
+    virtual void inspector__check_guard_r4(unsigned reactant1);
     virtual void inspector__check_guard_r5(unsigned reactant1, unsigned reactant2);
+    virtual void inspector__check_guard_r6(unsigned reactant1);
+    virtual void inspector__check_guard_r7(unsigned reactant1, unsigned reactant2);
+    virtual void inspector__check_guard_r1();
+    virtual void inspector__check_guard_r2(unsigned reactant1);
     virtual void inspector__check_guard_r3(unsigned reactant1, unsigned reactant2);
     virtual void inspector__check_guard_r8();
     virtual void ext__protocol__idling();
+    virtual bool selector__execute_r2();
+    virtual bool enabled_checker__is_enabled_r8();
+    virtual bool enabled_checker__is_enabled_r3(unsigned reactant1, unsigned reactant2);
+    virtual bool enabled_checker__is_enabled_r2(unsigned reactant1);
+    virtual bool enabled_checker__is_enabled_r1();
+    virtual bool enabled_checker__is_enabled_r7(unsigned reactant1, unsigned reactant2);
+    virtual bool enabled_checker__is_enabled_r6(unsigned reactant1);
+    virtual bool enabled_checker__is_enabled_r5(unsigned reactant1, unsigned reactant2);
+    virtual bool enabled_checker__is_enabled_r4(unsigned reactant1);
+    virtual void ext__protocol__update_r8();
+    virtual bool selector__execute_r8();
+    virtual void ext__protocol__update_r2();
+    virtual void __init();
+    virtual void ext__protocol__update_r1();
+    virtual bool selector__execute_r3();
+    virtual void ext__protocol__update_r3();
+    virtual bool selector__execute_r1();
+    virtual void ext__protocol__update_r5();
+    virtual void ext__protocol__update_r4();
+    virtual bool selector__execute_r4();
+    virtual bool selector__execute_r5();
+    virtual void imp__goal__achieved(unsigned v);
+    virtual void ext__protocol__update_r7();
+    virtual void ext__protocol__update_r6();
+    virtual void ext__protocol__fail_test();
+    virtual bool selector__execute_r6();
     virtual unsigned updater__incr(unsigned x);
     virtual unsigned updater__decr(unsigned x);
     virtual void imp__inspector__check_guard_r5(unsigned reactant1, unsigned reactant2);
-    virtual bool enabled_checker__is_enabled_r8();
+    virtual void imp__inspector__check_guard_r4(unsigned reactant1);
+    virtual void imp__inspector__check_guard_r7(unsigned reactant1, unsigned reactant2);
+    virtual void imp__inspector__check_guard_r6(unsigned reactant1);
+    virtual void imp__inspector__check_guard_r1();
     virtual void imp__inspector__check_guard_r3(unsigned reactant1, unsigned reactant2);
-    virtual bool enabled_checker__is_enabled_r3(unsigned reactant1, unsigned reactant2);
-    virtual void ext__protocol__fail_test();
+    virtual void imp__inspector__check_guard_r2(unsigned reactant1);
     virtual void imp__inspector__check_guard_r8();
-    virtual bool enabled_checker__is_enabled_r5(unsigned reactant1, unsigned reactant2);
     void __tick(int timeout);
 };
