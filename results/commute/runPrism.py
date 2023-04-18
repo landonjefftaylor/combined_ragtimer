@@ -1,6 +1,7 @@
 import subprocess
 
-modelArr = ["2react", "6react", "8react"]
+modelArr = ["6react"]
+# modelArr = ["2react", "6react", "8react"]
 looseArr = ["", "loose"]
 qtyArr = ["1", "10", "100"]
 cycleArr = ["0", "2", "4"]
@@ -13,6 +14,12 @@ for model in modelArr:
                 for qty in qtyArr:
                     folder = model + "/q" + qty + "_r" + recBound + "_c" + cycle + "_" + loose
                     command = ["/usr/bin/time", "-o", folder+"/prism_time2.txt", "prism", "-importmodel", folder+ "/prism.tra,sta,lab", "-ctmc", folder + "/model.csl"]
+                    with open(folder + "/model.csl", "r") as modelcsl:
+                        for line in modelcsl:
+                            propertyLine = line.replace("<=", ">=")
+                            break
+                    with open(folder + "/model.csl", "w") as modelcsl:
+                        modelcsl.write(propertyLine + "\n")
                     with open(folder + "/prism_result.txt", "w") as prismOut:
                         subprocess.run(command, stdout=prismOut, stderr=prismOut)
                     with open(folder + "/ragtimer_time.txt", "r") as ragtimerTime:
