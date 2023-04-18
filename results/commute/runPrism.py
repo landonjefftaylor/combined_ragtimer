@@ -30,7 +30,7 @@ for model in modelArr:
                         for line in prismTimeFile:
                             prismTime = line.split(" ")[0].replace("user", "")
                             break
-                    probability = 999
+                    probability = "999"
                     with open(folder + "/prism_result.txt", "r") as prismResult:
                         for line in prismResult:
                             if "Result:" in line:
