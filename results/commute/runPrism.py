@@ -24,9 +24,10 @@ for model in modelArr:
                             prismTime = line.split(" ")[0].replace("user", "")
                             break
                     with open(folder + "/prism_result.txt", "r") as prismResult:
-                        for line in prismTimeFile:
+                        for line in prismResult:
                             if "Result:" in line:
                                 probability = line.split(" ")[1]
+                                break
                     newQty = int(qty)
                     with open(folder + "/ragtimer_output.txt", "r") as ragtimerOutput:
                         for line in ragtimerOutput:
