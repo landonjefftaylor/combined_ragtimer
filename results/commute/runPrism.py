@@ -26,7 +26,7 @@ for model in modelArr:
                     with open(folder + "/prism_result.txt", "r") as prismResult:
                         for line in prismResult:
                             if "Result:" in line:
-                                probability = line.split(" ")[1]
+                                probability = line.split(" ")[1].strip()
                                 break
                     newQty = int(qty)
                     with open(folder + "/ragtimer_output.txt", "r") as ragtimerOutput:
