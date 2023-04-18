@@ -23,10 +23,10 @@ for model in modelArr:
                         for line in prismTimeFile:
                             prismTime = line.split(" ")[0].replace("user", "")
                             break
-                    # with open(folder + "/prism_result.txt", "r") as prismResult:
-                    #     for line in prismTimeFile:
-                    #         if "probability" in line:
-
+                    with open(folder + "/prism_result.txt", "r") as prismResult:
+                        for line in prismTimeFile:
+                            if "Result:" in line:
+                                probability = line.split(" ")[1]
                     newQty = int(qty)
                     with open(folder + "/ragtimer_output.txt", "r") as ragtimerOutput:
                         for line in ragtimerOutput:
@@ -38,4 +38,4 @@ for model in modelArr:
                         newLoose = "default"
                     else:
                         newLoose = "loose"
-                    print(model + "," + newLoose + ",yes," + qty + "," + recBound + "," + cycle + "," + str(newQty) + "," + userTime + ",0," + prismTime)
+                    print(model + "," + newLoose + ",yes," + qty + "," + recBound + "," + cycle + "," + str(newQty) + "," + userTime + "," + probability + "," + prismTime)
