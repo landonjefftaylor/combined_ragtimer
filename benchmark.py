@@ -2,8 +2,8 @@ import subprocess
 import os
 from datetime import datetime
 
-# modelArr = ["2react", "6react", "8react"]
-modelArr = ["6react"]
+modelArr = ["2react", "6react", "8react"]
+# modelArr = ["6react"]
 looseArr = ["", "loose"]
 qtyArr = ["1", "10", "100"]
 cycleArr = ["0", "2", "4"]
@@ -84,12 +84,12 @@ for model in modelArr:
                         subprocess.run(command, stdout=rto, stderr=subprocess.DEVNULL)
                     
                     # run prism (and get time)
-                    command = "/usr/bin/time -o prism_time.txt prism -importmodel _commute/prism.tra,sta,lab -ctmc model.csl".split()
+                    command = "/usr/bin/time -o prism_time.txt prism -importmodel _commute/prism.tra,sta,lab -ctmc model.csl > prism_output.txt"
                     # print("running " + " ".join(command))
                     # subprocess.run(command)
                     print("running " + " ".join(command))
                     # subprocess.run(command, stdout=rto, stderr=subprocess.DEVNULL)
-                    os.system(" ".join(command))
+                    os.system(command)
 
                     # copy models and results into results folder
                     folder = "results/commute/" + model + "/q" + qty + "_r" + recBound + "_c" + cycle + "_" + loose
