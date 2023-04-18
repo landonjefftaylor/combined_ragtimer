@@ -2,7 +2,7 @@ PRISM
 =====
 
 Version: 4.7
-Date: Tue Apr 18 12:12:51 MDT 2023
+Date: Tue Apr 18 12:15:33 MDT 2023
 Hostname: el304b
 Memory limits: cudd=1g, java(heap)=1g
 Command line: prism -importmodel '2react/q100_r2_c0_loose/prism.tra,sta,lab' -ctmc 2react/q100_r2_c0_loose/model.csl

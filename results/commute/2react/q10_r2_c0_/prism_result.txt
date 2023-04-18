@@ -2,7 +2,7 @@ PRISM
 =====
 
 Version: 4.7
-Date: Tue Apr 18 12:12:50 MDT 2023
+Date: Tue Apr 18 12:15:32 MDT 2023
 Hostname: el304b
 Memory limits: cudd=1g, java(heap)=1g
 Command line: prism -importmodel '2react/q10_r2_c0_/prism.tra,sta,lab' -ctmc 2react/q10_r2_c0_/model.csl
@@ -23,9 +23,9 @@ Building model...
 
 Computing reachable states...
 
-Reachability (BFS): 43 iterations in 0.00 seconds (average 0.000023, setup 0.00)
+Reachability (BFS): 43 iterations in 0.01 seconds (average 0.000116, setup 0.00)
 
-Time for model construction: 0.016 seconds.
+Time for model construction: 0.015 seconds.
 
 Warning: Deadlocks detected and fixed in 1 states
 
@@ -51,7 +51,7 @@ Fox-Glynn: left = 0, right = 400
 
 Starting iterations...
 
-Iterative method: 400 iterations in 0.00 seconds (average 0.000000, setup 0.00)
+Iterative method: 400 iterations in 0.00 seconds (average 0.000003, setup 0.00)
 
 Value in the initial state: 1.874947271763825E-7
 

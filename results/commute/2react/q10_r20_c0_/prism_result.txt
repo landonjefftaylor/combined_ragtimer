@@ -2,7 +2,7 @@ PRISM
 =====
 
 Version: 4.7
-Date: Tue Apr 18 12:12:53 MDT 2023
+Date: Tue Apr 18 12:15:35 MDT 2023
 Hostname: el304b
 Memory limits: cudd=1g, java(heap)=1g
 Command line: prism -importmodel '2react/q10_r20_c0_/prism.tra,sta,lab' -ctmc 2react/q10_r20_c0_/model.csl
@@ -23,7 +23,7 @@ Building model...
 
 Computing reachable states...
 
-Reachability (BFS): 61 iterations in 0.00 seconds (average 0.000033, setup 0.00)
+Reachability (BFS): 61 iterations in 0.01 seconds (average 0.000082, setup 0.00)
 
 Time for model construction: 0.016 seconds.
 

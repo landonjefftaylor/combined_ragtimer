@@ -2,7 +2,7 @@ PRISM
 =====
 
 Version: 4.7
-Date: Tue Apr 18 12:12:52 MDT 2023
+Date: Tue Apr 18 12:15:34 MDT 2023
 Hostname: el304b
 Memory limits: cudd=1g, java(heap)=1g
 Command line: prism -importmodel '2react/q10_r10_c0_loose/prism.tra,sta,lab' -ctmc 2react/q10_r10_c0_loose/model.csl
@@ -51,7 +51,7 @@ Fox-Glynn: left = 0, right = 400
 
 Starting iterations...
 
-Iterative method: 400 iterations in 0.00 seconds (average 0.000003, setup 0.00)
+Iterative method: 400 iterations in 0.00 seconds (average 0.000000, setup 0.00)
 
 Value in the initial state: 2.966371921998396E-7
 
