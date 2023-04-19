@@ -1,0 +1,70 @@
+PRISM
+=====
+
+Version: 4.7
+Date: Wed Apr 19 05:33:11 MDT 2023
+Hostname: el304b
+Memory limits: cudd=1g, java(heap)=1g
+Command line: prism -importmodel '_commute/prism.tra,sta,lab' -ctmc model.csl
+
+Importing model from "_commute/prism.tra", "_commute/prism.sta", "_commute/prism.lab"...
+Using specified model type: CTMC
+
+Parsing properties file "model.csl"...
+
+1 property:
+(1) P=? [ F<=20 (G_bg>=50) ]
+
+---------------------------------------------------------------------
+
+Model checking: P=? [ F<=20 (G_bg>=50) ]
+
+Building model...
+
+Computing reachable states...
+
+Reachability (BFS): 116 iterations in 0.10 seconds (average 0.000819, setup 0.00)
+
+Time for model construction: 0.559 seconds.
+
+Warning: Deadlocks detected and fixed in 1 states
+
+Type:        CTMC
+States:      2370 (1 initial)
+Transitions: 9242
+
+Rate matrix: 111651 nodes (1991 terminal), 9242 minterms, vars: 32r/32c
+
+Computing probabilities...
+Engine: Hybrid
+
+Number of non-absorbing states: 2337 of 2370 (98.6%)
+
+Building hybrid MTBDD matrix... [levels=32, nodes=116501] [5.3 MB]
+Adding explicit sparse matrices... [levels=32, num=1, compact] [60.3 KB]
+Creating vector for diagonals... [dist=2307, compact] [22.7 KB]
+Allocating iteration vectors... [3 x 18.5 KB]
+TOTAL: [5.5 MB]
+
+Uniformisation: q.t = 52489.798740 x 20.000000 = 1049795.974800
+Fox-Glynn: left = 1042620, right = 1058491
+
+Starting iterations...
+Iteration 174024 (of 1058491): max relative diff=0.000336, 5.00 sec so far
+Iteration 347107 (of 1058491): max relative diff=0.000082, 10.00 sec so far
+Iteration 522572 (of 1058491): max relative diff=0.000009, 15.00 sec so far
+
+Steady state detected at iteration 653038
+
+Iterative method: 653038 iterations in 20.46 seconds (average 0.000029, setup 1.75)
+
+Value in the initial state: 4.271724959931949E-136
+
+Time for model checking: 20.744 seconds.
+
+Result: 4.271724959931949E-136
+
+---------------------------------------------------------------------
+
+Note: There was 1 warning during computation.
+

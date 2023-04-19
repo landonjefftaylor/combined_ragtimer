@@ -1,0 +1,67 @@
+PRISM
+=====
+
+Version: 4.7
+Date: Tue Apr 18 21:44:45 MDT 2023
+Hostname: el304b
+Memory limits: cudd=1g, java(heap)=1g
+Command line: prism -importmodel '_commute/prism.tra,sta,lab' -ctmc model.csl
+
+Importing model from "_commute/prism.tra", "_commute/prism.sta", "_commute/prism.lab"...
+Using specified model type: CTMC
+
+Parsing properties file "model.csl"...
+
+1 property:
+(1) P=? [ F<=20 (G_bg>=50) ]
+
+---------------------------------------------------------------------
+
+Model checking: P=? [ F<=20 (G_bg>=50) ]
+
+Building model...
+
+Computing reachable states...
+
+Reachability (BFS): 106 iterations in 0.24 seconds (average 0.002283, setup 0.00)
+
+Time for model construction: 1.772 seconds.
+
+Warning: Deadlocks detected and fixed in 1 states
+
+Type:        CTMC
+States:      5557 (1 initial)
+Transitions: 29779
+
+Rate matrix: 191104 nodes (3034 terminal), 29779 minterms, vars: 32r/32c
+
+Computing probabilities...
+Engine: Hybrid
+
+Number of non-absorbing states: 5496 of 5557 (98.9%)
+
+Building hybrid MTBDD matrix... [levels=32, nodes=205220] [9.4 MB]
+Adding explicit sparse matrices... [levels=32, num=1, compact] [160.4 KB]
+Creating vector for diagonals... [dist=5159, compact] [51.2 KB]
+Allocating iteration vectors... [3 x 43.4 KB]
+TOTAL: [9.7 MB]
+
+Uniformisation: q.t = 15.612528 x 20.000000 = 312.250560
+Fox-Glynn: left = 0, right = 410
+
+Starting iterations...
+
+Steady state detected at iteration 227
+
+Iterative method: 227 iterations in 7.03 seconds (average 0.000079, setup 7.01)
+
+Value in the initial state: 9.133436160637829E-34
+
+Time for model checking: 7.016 seconds.
+
+Result: 9.133436160637829E-34
+
+---------------------------------------------------------------------
+
+Note: There was 1 warning during computation.
+

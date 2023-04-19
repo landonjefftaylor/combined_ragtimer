@@ -1,0 +1,75 @@
+PRISM
+=====
+
+Version: 4.7
+Date: Tue Apr 18 22:25:57 MDT 2023
+Hostname: el304b
+Memory limits: cudd=1g, java(heap)=1g
+Command line: prism -importmodel '_commute/prism.tra,sta,lab' -ctmc model.csl
+
+Importing model from "_commute/prism.tra", "_commute/prism.sta", "_commute/prism.lab"...
+Using specified model type: CTMC
+
+Parsing properties file "model.csl"...
+
+1 property:
+(1) P=? [ F<=20 (G_bg>=50) ]
+
+---------------------------------------------------------------------
+
+Model checking: P=? [ F<=20 (G_bg>=50) ]
+
+Building model...
+
+Computing reachable states...
+
+Reachability (BFS): 111 iterations in 0.17 seconds (average 0.001486, setup 0.00)
+
+Time for model construction: 1.327 seconds.
+
+Warning: Deadlocks detected and fixed in 1 states
+
+Type:        CTMC
+States:      4029 (1 initial)
+Transitions: 23130
+
+Rate matrix: 156219 nodes (2008 terminal), 23130 minterms, vars: 33r/33c
+
+Computing probabilities...
+Engine: Hybrid
+
+Number of non-absorbing states: 3974 of 4029 (98.6%)
+
+Building hybrid MTBDD matrix... [levels=33, nodes=168184] [7.7 MB]
+Adding explicit sparse matrices... [levels=33, num=1, compact] [120.5 KB]
+Creating vector for diagonals... [dist=3970, compact] [38.9 KB]
+Allocating iteration vectors... [3 x 31.5 KB]
+TOTAL: [7.9 MB]
+
+Uniformisation: q.t = 104969.149416 x 20.000000 = 2099382.988320
+Fox-Glynn: left = 2089237, right = 2111679
+
+Starting iterations...
+Iteration 70573 (of 2111679): max relative diff=0.000542, 5.00 sec so far
+Iteration 161576 (of 2111679): max relative diff=0.000190, 10.00 sec so far
+Iteration 253428 (of 2111679): max relative diff=0.000092, 15.00 sec so far
+Iteration 344507 (of 2111679): max relative diff=0.000047, 20.00 sec so far
+Iteration 434744 (of 2111679): max relative diff=0.000023, 25.00 sec so far
+Iteration 525524 (of 2111679): max relative diff=0.000009, 30.01 sec so far
+Iteration 615672 (of 2111679): max relative diff=0.000002, 35.01 sec so far
+Iteration 705820 (of 2111679): max relative diff=0.000000, 40.01 sec so far
+
+Steady state detected at iteration 748423
+
+Iterative method: 748423 iterations in 46.41 seconds (average 0.000057, setup 4.07)
+
+Value in the initial state: 7.511660554335409E-271
+
+Time for model checking: 46.995 seconds.
+
+Result: 7.511660554335409E-271
+
+---------------------------------------------------------------------
+
+Note: There was 1 warning during computation.
+

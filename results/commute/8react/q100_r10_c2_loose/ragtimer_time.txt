@@ -1,0 +1,2 @@
+221.49user 25.04system 57:16.62elapsed 7%CPU (0avgtext+0avgdata 1530704maxresident)k
+0inputs+94720outputs (52major+1608259minor)pagefaults 0swaps
