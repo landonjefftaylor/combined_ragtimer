@@ -26,8 +26,13 @@ for model in modelArr:
                                 newQty = newQty - 1
                             elif "did not reach the target state" in line:
                                 newQty = newQty - 1
+                    prob = 0.0
+                    with open(folder + "/prism_output.txt", "r") as ragtimerOutput:
+                        for line in ragtimerOutput:
+                            if "Result:" in line:
+                                prob = float(line.split()[1])
                     if loose == "":
                         newLoose = "default"
                     else:
                         newLoose = "loose"
-                    print(model + "," + newLoose + ",yes," + qty + "," + recBound + "," + cycle + "," + str(newQty) + "," + userTime + ",0," + prismTime)
+                    print(model + "," + newLoose + ",yes," + qty + "," + recBound + "," + cycle + "," + str(newQty) + "," + userTime + "," + str(prob) + "," + prismTime)
