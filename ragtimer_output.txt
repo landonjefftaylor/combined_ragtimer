@@ -43,7 +43,7 @@ R5
 R3 R5 
 R8 R5 
 
-/home/landonjefftaylor/combined_ragtimer/_ragtimer
+/home/tacas23/combined_ragtimer/_ragtimer
 Finding 100
 For each prefix: 50
 --------------------------------------------------
@@ -51,11 +51,9 @@ Testing Prefix R3 R5
 --------------------------------------------------
 starting to run initial test
 finished initial test
-The iters recorded for this initial example is 391
+The iters recorded for this initial example is 1127
 Running test for 50 simulation runs in group 1 of 1
 finished randomized testing
-Run 20 did not reach the target state
-
 
 The traces recorded and the information on those traces are stored in 'reaction_list.txt'
 
@@ -65,7 +63,7 @@ Testing Prefix R8 R5
 --------------------------------------------------
 starting to run initial test
 finished initial test
-The iters recorded for this initial example is 425
+The iters recorded for this initial example is 150
 Running test for 50 simulation runs in group 1 of 1
 finished randomized testing
 
@@ -80,8 +78,8 @@ Total Sum of Unique Path Probabilities: 0.0
 
 
 
-(javac -classpath "/usr/local/bin/prism/classes:/usr/local/bin/prism/lib/*:/usr/local/bin/prism/prism/classes:/usr/local/bin/prism/prism/lib/*" -d classes src/./BuildModel.java)
-PRISM_DIR=/usr/local/bin/prism PRISM_MAINCLASS=simulate.BuildModel bin/run
+(javac -classpath "/home/tacas23/prism/classes:/home/tacas23/prism/lib/*:/home/tacas23/prism/prism/classes:/home/tacas23/prism/prism/lib/*" -d classes src/./BuildModel.java)
+PRISM_DIR=/home/tacas23/prism PRISM_MAINCLASS=simulate.BuildModel bin/run
 Welcome to the model commutation tool.
 Getting Parameters from input file
 Model Name: ../model.sm
@@ -90,25 +88,23 @@ Property: G_bg>=50
 Max Depth: 20
 Time Bound: 100000.0
 Terminating with depth bound
-Cycle length: 4
-Cycle initial values for testing: 8
+Cycle length: 0
+Cycle initial values for testing: 0
 Verbose mode disabled
 Prism model and property loaded succesfully.
 Iterating through each input trace.
 Expect this to run silently for a moment.
-Processed 25 paths with a state count of 15507
-Processed 50 paths with a state count of 17348
-Processed 75 paths with a state count of 19009
-Processed 100 paths with a state count of 20572
-Processed 100 paths with a state count of 20576
-State graph built. Appending cycles where allowable.
-Added 20576 cycles, with 4431 new states and 19660 transitions.
-Removed 0 dead-end states and 0 probability sink states (total 0 states).
-Removed 0 corresponding transitions.
+Processed 25 paths with a state count of 12523
+Processed 50 paths with a state count of 13306
+Processed 75 paths with a state count of 14004
+Processed 100 paths with a state count of 14603
+Processed 100 paths with a state count of 14604
+Removed 4128 dead-end states and 0 probability sink states (total 4128 states).
+Removed 7482 corresponding transitions.
 
 Final Count:
-25007 states
-89089 transitions
+10476 states
+48927 transitions
 
 Establishing an absorbing state.
 Begin printing model files.
@@ -123,10 +119,10 @@ This is an added confidence booster for the probability results.
 END ERROR CHECKING
 ---------------------------------------
 Finished! Processed 100 paths.
-Max Memory: 1262713984 bytes
-Max Memory: 1262713 KB
-Max Memory: 1262 MB
-Max Memory: 1 GB
+Max Memory: 57133104 bytes
+Max Memory: 57133 KB
+Max Memory: 57 MB
+Max Memory: 0 GB
 Welcome to RAGTIMER. At present, this is two tools joined together. We are working on joining them together more seamlessly but appreciate your patience with this prototype tool.
 I will generate traces, then commute.
 I am assuming you have placed your model in the following files:
@@ -137,7 +133,7 @@ model.csl (prism csl property)
 
 _commute/options.txt
 Running RAGTIMER trace generation
-/home/landonjefftaylor/combined_ragtimer/_ragtimer
+/home/tacas23/combined_ragtimer/_ragtimer
 Starting Commuting
 Look for output files _commute/prism.* or _commute/storm.*
 You can use these files in your favorite model checker.

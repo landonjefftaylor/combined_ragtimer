@@ -6,7 +6,7 @@ recursionBound 20
 timeBound 100000
 flexbility 0.0
 terminate depth
-cycleLength 4
+cycleLength 0
 
 
 verbose false
