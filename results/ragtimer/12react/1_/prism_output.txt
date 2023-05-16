@@ -1,0 +1,14 @@
+PRISM
+=====
+
+Version: 4.5
+Date: Tue May 16 12:31:58 MDT 2023
+Hostname: deeplearning
+Memory limits: cudd=1g, java(heap)=1g
+Command line: prism -importmodel '_commute/prism.tra,sta,lab' -ctmc model.csl
+
+Importing model (CTMC) from "_commute/prism.tra", "_commute/prism.sta", "_commute/prism.lab"...
+
+Parsing properties file "model.csl"...
+
+Error: Undeclared identifier ("CodY", line 1, column 17).

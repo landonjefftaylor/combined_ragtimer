@@ -2,11 +2,17 @@ import subprocess
 import os
 from datetime import datetime
 
-modelArr = ["2react", "6react", "8react", "12react"]
+modelArr = ["12react", "6react", "8react", "2react"]
 looseArr = ["", "loose"]
 qtyArr = ["1", "10", "100", "1000", "10000"]
 cycleArr = ["0", "2", "4"]
 recBoundArr = ["2", "10", "20", "40", "80"]
+
+#modelArr = ["12react"]
+#looseArr = [""]
+#qtyArr = ["1"]
+#cycleArr = ["0"]
+#recBoundArr = ["2"]
 
 # # Not commuting, just trace generation
 for model in modelArr:
@@ -78,14 +84,14 @@ for model in modelArr:
                     # run ragtimer (incl. getting time)
                     with open("ragtimer_output.txt", "w") as rto:
                         command = ["/usr/bin/time", "-o", "ragtimer_time.txt", "python3", "ragtimer.py", "commute", loose, "qty", qty, "bound", "r", "recbound", recBound, "cycle", cycle, "1>", "ragtimer_output.txt", "2>", "/dev/null"]
-                        print("running " + command)
+                        print("running " + " ".join(command))
                         subprocess.run(command, stdout=rto, stderr=subprocess.DEVNULL)
                     
                     # run prism (and get time)
                     command = "/usr/bin/time -o prism_time.txt prism -importmodel _commute/prism.tra,sta,lab -ctmc model.csl > prism_output.txt"
                     # print("running " + " ".join(command))
                     # subprocess.run(command)
-                    print("running " + " ".join(command))
+                    print("running " + command)
                     # subprocess.run(command, stdout=rto, stderr=subprocess.DEVNULL)
                     os.system(command)
 

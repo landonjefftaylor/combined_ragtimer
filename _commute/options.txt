@@ -1,8 +1,8 @@
 model ../model.sm
 trace ../commute_traces.txt
-property G_bg >= 50
+property CodY=20
 
-recursionBound 20
+recursionBound 2
 timeBound 100000
 flexbility 0.0
 terminate depth

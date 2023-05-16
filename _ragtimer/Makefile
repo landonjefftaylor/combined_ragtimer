@@ -2,7 +2,8 @@
 # Need to link to a PRISM distribution
 # Link to root folder (i.e. not prism/prism)
 # PRISM_DIR = /usr/local/prism-src/prism
-PRISM_DIR = /home/tacas23/prism
+# PRISM_DIR = /home/tacas23/prism
+PRISM_DIR = /home/landonjefftaylor/prism
 
 # For compilation, just need access to classes/jars in the PRISM distribution
 # We look in both the top-level and the prism sub-directory
