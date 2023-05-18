@@ -110,9 +110,9 @@ This is an added confidence booster for the probability results.
 END ERROR CHECKING
 ---------------------------------------
 Finished! Processed 1 paths.
-Max Memory: 103491016 bytes
-Max Memory: 103491 KB
-Max Memory: 103 MB
+Max Memory: 105586688 bytes
+Max Memory: 105586 KB
+Max Memory: 105 MB
 Max Memory: 0 GB
 Welcome to RAGTIMER. At present, this is two tools joined together. We are working on joining them together more seamlessly but appreciate your patience with this prototype tool.
 I will generate traces, then commute.

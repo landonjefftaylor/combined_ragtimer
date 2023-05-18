@@ -3,8 +3,8 @@ import os
 from datetime import datetime
 
 modelArr = ["12react", "6react", "8react", "2react"]
-looseArr = ["", "loose"]
-qtyArr = ["1", "10", "100", "1000"]
+looseArr = ["loose", ""]
+qtyArr = ["1", "10", "100"]
 cycleArr = ["0", "2", "4"]
 recBoundArr = ["2", "10", "20"]
 
@@ -85,15 +85,16 @@ for model in modelArr:
                     with open("ragtimer_output.txt", "w") as rto:
                         command = ["/usr/bin/time", "-o", "ragtimer_time.txt", "python3", "ragtimer.py", "commute", loose, "qty", qty, "bound", "r", "recbound", recBound, "cycle", cycle, "1>", "ragtimer_output.txt", "2>", "/dev/null"]
                         print("running " + " ".join(command))
-                        subprocess.run(command, stdout=rto, stderr=subprocess.DEVNULL)
+                        subprocess.run(command, stdout=rto, stderr=subprocess.DEVNULL, timeout=600)
                     
                     # run prism (and get time)
                     command = "/usr/bin/time -o prism_time.txt prism -importmodel _commute/prism.tra,sta,lab -ctmc model.csl > prism_output.txt"
                     # print("running " + " ".join(command))
                     # subprocess.run(command)
-                    print("running " + command)
-                    # subprocess.run(command, stdout=rto, stderr=subprocess.DEVNULL)
-                    os.system(command)
+                    with open("prism_output.txt", "w") as rto:
+                        print("running " + command)
+                        subprocess.run(command.split(" "), stdout=rto, stderr=subprocess.DEVNULL, timeout=600)
+                    #os.system(command)
 
                     # copy models and results into results folder
                     folder = "results/commute/" + model + "/q" + qty + "_r" + recBound + "_c" + cycle + "_" + loose

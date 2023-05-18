@@ -49,7 +49,7 @@ Testing Prefix R1
 --------------------------------------------------
 starting to run initial test
 finished initial test
-The iters recorded for this initial example is 108
+The iters recorded for this initial example is 83
 Running test for 1 simulation runs in group 1 of 1
 finished randomized testing
 
@@ -80,7 +80,7 @@ Verbose mode disabled
 Prism model and property loaded succesfully.
 Iterating through each input trace.
 Expect this to run silently for a moment.
-ERROR: Initial trace transition [r1] not available from current state (1,1,1,1,1,1,20,10,11)
+ERROR: Initial trace transition [r3] not available from current state (1,0,0,2,2,1,17,10,11)
 Welcome to RAGTIMER. At present, this is two tools joined together. We are working on joining them together more seamlessly but appreciate your patience with this prototype tool.
 I will generate traces, then commute.
 I am assuming you have placed your model in the following files:
