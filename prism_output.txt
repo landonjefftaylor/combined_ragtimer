@@ -2,7 +2,7 @@ PRISM
 =====
 
 Version: 4.5
-Date: Wed May 17 23:13:18 MDT 2023
+Date: Thu May 18 08:24:56 MDT 2023
 Hostname: deeplearning
 Memory limits: cudd=1g, java(heap)=1g
 Command line: prism -importmodel '_commute/prism.tra,sta,lab' -ctmc model.csl
@@ -22,41 +22,41 @@ Building model...
 
 Computing reachable states...
 
-Reachability (BFS): 19 iterations in 0.12 seconds (average 0.006263, setup 0.00)
+Reachability (BFS): 13 iterations in 0.01 seconds (average 0.000615, setup 0.00)
 
-Time for model construction: 4.493 seconds.
+Time for model construction: 0.137 seconds.
 
 Warning: Deadlocks detected and fixed in 1 states
 
 Type:        CTMC
-States:      11033 (1 initial)
-Transitions: 86143
+States:      430 (1 initial)
+Transitions: 2472
 
-Rate matrix: 81099 nodes (2080 terminal), 86143 minterms, vars: 29r/29c
+Rate matrix: 8314 nodes (301 terminal), 2472 minterms, vars: 25r/25c
 
 Computing probabilities...
 Engine: Hybrid
 
-Number of non-absorbing states: 10684 of 11033 (96.8%)
+Number of non-absorbing states: 403 of 430 (93.7%)
 
-Building hybrid MTBDD matrix... [levels=29, nodes=108960] [5.0 MB]
-Adding explicit sparse matrices... [levels=29, num=1, compact] [387.8 KB]
-Creating vector for diagonals... [dist=5858, compact] [67.3 KB]
-Allocating iteration vectors... [3 x 86.2 KB]
-TOTAL: [5.7 MB]
+Building hybrid MTBDD matrix... [levels=25, nodes=9534] [446.9 KB]
+Adding explicit sparse matrices... [levels=25, num=1, compact] [13.1 KB]
+Creating vector for diagonals... [dist=372, compact] [3.7 KB]
+Allocating iteration vectors... [3 x 3.4 KB]
+TOTAL: [473.8 KB]
 
-Uniformisation: q.t = 6.291156 x 10.000000 = 62.911560
-Fox-Glynn: left = 0, right = 109
+Uniformisation: q.t = 4.444956 x 10.000000 = 44.449560
+Fox-Glynn: left = 0, right = 84
 
 Starting iterations...
 
-Iterative method: 109 iterations in 2.87 seconds (average 0.000165, setup 2.86)
+Iterative method: 84 iterations in 0.03 seconds (average 0.000012, setup 0.03)
 
-Value in the initial state: 1.4154260600822651E-9
+Value in the initial state: 1.7707830772684917E-11
 
-Time for model checking: 2.871 seconds.
+Time for model checking: 0.014 seconds.
 
-Result: 1.4154260600822651E-9 (value in the initial state)
+Result: 1.7707830772684917E-11 (value in the initial state)
 
 ---------------------------------------------------------------------
 

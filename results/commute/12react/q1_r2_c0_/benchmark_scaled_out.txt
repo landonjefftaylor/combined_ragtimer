@@ -1,0 +1,2 @@
+mkdir: cannot create directory ‘results/commute/12react’: File exists
+mkdir: cannot create directory ‘results/commute/12react/q1_r2_c0_’: File exists

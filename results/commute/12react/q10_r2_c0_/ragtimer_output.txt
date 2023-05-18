@@ -49,7 +49,7 @@ Testing Prefix R1
 --------------------------------------------------
 starting to run initial test
 finished initial test
-The iters recorded for this initial example is 198
+The iters recorded for this initial example is 10
 Running test for 10 simulation runs in group 1 of 1
 finished randomized testing
   Run 2 was a duplicate and has been thrown out of trace_list.txt
@@ -110,9 +110,9 @@ This is an added confidence booster for the probability results.
 END ERROR CHECKING
 ---------------------------------------
 Finished! Processed 1 paths.
-Max Memory: 105586688 bytes
-Max Memory: 105586 KB
-Max Memory: 105 MB
+Max Memory: 103491016 bytes
+Max Memory: 103491 KB
+Max Memory: 103 MB
 Max Memory: 0 GB
 Welcome to RAGTIMER. At present, this is two tools joined together. We are working on joining them together more seamlessly but appreciate your patience with this prototype tool.
 I will generate traces, then commute.

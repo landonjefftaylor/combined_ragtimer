@@ -609,3 +609,169 @@ ragtimer_output.txt
 ragtimer_time.txt
 mkdir: cannot create directory ‘results/commute/12react’: File exists
 mkdir: cannot create directory ‘results/commute/12react/q1_r2_c0_’: File exists
+********************************************************************************
+cp models/2react/2react.* .
+mv 2react.sm model.sm
+mv 2react.csl model.csl
+mv 2react.prop model.prop
+mv 2react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py  qty 1000 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/2react/2react.* .
+mv 2react.sm model.sm
+mv 2react.csl model.csl
+mv 2react.prop model.prop
+mv 2react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py  qty 10000 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/2react/2react.* .
+mv 2react.sm model.sm
+mv 2react.csl model.csl
+mv 2react.prop model.prop
+mv 2react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py loose qty 1 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/2react/2react.* .
+mv 2react.sm model.sm
+mv 2react.csl model.csl
+mv 2react.prop model.prop
+mv 2react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py loose qty 10 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/2react/2react.* .
+mv 2react.sm model.sm
+mv 2react.csl model.csl
+mv 2react.prop model.prop
+mv 2react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py loose qty 100 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/2react/2react.* .
+mv 2react.sm model.sm
+mv 2react.csl model.csl
+mv 2react.prop model.prop
+mv 2react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py loose qty 1000 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/2react/2react.* .
+mv 2react.sm model.sm
+mv 2react.csl model.csl
+mv 2react.prop model.prop
+mv 2react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py loose qty 10000 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/12react/12react.* .
+mv 12react.sm model.sm
+mv 12react.csl model.csl
+mv 12react.prop model.prop
+mv 12react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py commute  qty 1 bound r recbound 2 cycle 0 1> ragtimer_output.txt 2> /dev/null
+running /usr/bin/time -o prism_time.txt prism -importmodel _commute/prism.tra,sta,lab -ctmc model.csl > prism_output.txt
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/12react/12react.* .
+mv 12react.sm model.sm
+mv 12react.csl model.csl
+mv 12react.prop model.prop
+mv 12react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py commute  qty 10 bound r recbound 2 cycle 0 1> ragtimer_output.txt 2> /dev/null
+running /usr/bin/time -o prism_time.txt prism -importmodel _commute/prism.tra,sta,lab -ctmc model.csl > prism_output.txt
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/12react/12react.* .
+mv 12react.sm model.sm
+mv 12react.csl model.csl
+mv 12react.prop model.prop
+mv 12react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py commute  qty 100 bound r recbound 2 cycle 0 1> ragtimer_output.txt 2> /dev/null
+running /usr/bin/time -o prism_time.txt prism -importmodel _commute/prism.tra,sta,lab -ctmc model.csl > prism_output.txt
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/12react/12react.* .
+mv 12react.sm model.sm
+mv 12react.csl model.csl
+mv 12react.prop model.prop
+mv 12react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py commute  qty 1000 bound r recbound 2 cycle 0 1> ragtimer_output.txt 2> /dev/null
+running /usr/bin/time -o prism_time.txt prism -importmodel _commute/prism.tra,sta,lab -ctmc model.csl > prism_output.txt
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/12react/12react.* .
+mv 12react.sm model.sm
+mv 12react.csl model.csl
+mv 12react.prop model.prop
+mv 12react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py commute  qty 10000 bound r recbound 2 cycle 0 1> ragtimer_output.txt 2> /dev/null
+running /usr/bin/time -o prism_time.txt prism -importmodel _commute/prism.tra,sta,lab -ctmc model.csl > prism_output.txt
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/12react/12react.* .
+mv 12react.sm model.sm
+mv 12react.csl model.csl
+mv 12react.prop model.prop
+mv 12react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py commute  qty 1 bound r recbound 10 cycle 0 1> ragtimer_output.txt 2> /dev/null
+running /usr/bin/time -o prism_time.txt prism -importmodel _commute/prism.tra,sta,lab -ctmc model.csl > prism_output.txt
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/12react/12react.* .
+mv 12react.sm model.sm
+mv 12react.csl model.csl
+mv 12react.prop model.prop
+mv 12react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py commute  qty 10 bound r recbound 10 cycle 0 1> ragtimer_output.txt 2> /dev/null
+running /usr/bin/time -o prism_time.txt prism -importmodel _commute/prism.tra,sta,lab -ctmc model.csl > prism_output.txt
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/12react/12react.* .
+mv 12react.sm model.sm
+mv 12react.csl model.csl
+mv 12react.prop model.prop

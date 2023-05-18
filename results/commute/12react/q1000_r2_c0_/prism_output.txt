@@ -2,7 +2,7 @@ PRISM
 =====
 
 Version: 4.5
-Date: Tue May 16 15:32:41 MDT 2023
+Date: Thu May 18 08:24:56 MDT 2023
 Hostname: deeplearning
 Memory limits: cudd=1g, java(heap)=1g
 Command line: prism -importmodel '_commute/prism.tra,sta,lab' -ctmc model.csl
@@ -22,9 +22,9 @@ Building model...
 
 Computing reachable states...
 
-Reachability (BFS): 13 iterations in 0.02 seconds (average 0.001538, setup 0.00)
+Reachability (BFS): 13 iterations in 0.01 seconds (average 0.000615, setup 0.00)
 
-Time for model construction: 0.139 seconds.
+Time for model construction: 0.137 seconds.
 
 Warning: Deadlocks detected and fixed in 1 states
 
@@ -50,11 +50,11 @@ Fox-Glynn: left = 0, right = 84
 
 Starting iterations...
 
-Iterative method: 84 iterations in 0.03 seconds (average 0.000000, setup 0.03)
+Iterative method: 84 iterations in 0.03 seconds (average 0.000012, setup 0.03)
 
 Value in the initial state: 1.7707830772684917E-11
 
-Time for model checking: 0.015 seconds.
+Time for model checking: 0.014 seconds.
 
 Result: 1.7707830772684917E-11 (value in the initial state)
 
