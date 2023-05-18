@@ -1,0 +1,288 @@
+admin.sh
+artifact.sh
+bin
+classes
+depgraph.py
+genbash.py
+ignore.txt
+main.py
+Makefile
+prefixes.py
+prefix_parser.py
+__pycache__
+reaction_list.txt
+reactions_mod.py
+reactions_v5.py
+run_lots.sh
+src
+testprint.txt
+test.sh
+test_subp.py
+test_v2
+test_v2.cpp
+test_v2.dsc
+test_v2.h
+test_v2.ivy
+test_v2.txt
+test_v3
+test_v3.cpp
+test_v3.dsc
+test_v3.h
+test_v3.ivy
+trace_list.txt
+two.sh
+
+================================================================================
+Welcome to RAGTIMER for trace generation.
+This is a work in progress. Please submit bug reports.
+================================================================================
+
+Constructing a dependency graph
+Finished constructing a dependency graph, found these prefixes:
+r4 
+r6 r4 
+
+/home/landonjefftaylor/combined_ragtimer/_ragtimer
+Finding 10000
+For each prefix: 10000
+--------------------------------------------------
+Testing Prefix r4 r6 r4 
+--------------------------------------------------
+starting to run initial test
+finished initial test
+The iters recorded for this initial example is 2833
+Running test for 100 simulation runs in group 1 of 100
+Running test for 100 simulation runs in group 2 of 100
+Running test for 100 simulation runs in group 3 of 100
+Running test for 100 simulation runs in group 4 of 100
+Running test for 100 simulation runs in group 5 of 100
+Running test for 100 simulation runs in group 6 of 100
+Running test for 100 simulation runs in group 7 of 100
+Running test for 100 simulation runs in group 8 of 100
+Running test for 100 simulation runs in group 9 of 100
+Running test for 100 simulation runs in group 10 of 100
+Running test for 100 simulation runs in group 11 of 100
+Running test for 100 simulation runs in group 12 of 100
+Running test for 100 simulation runs in group 13 of 100
+Running test for 100 simulation runs in group 14 of 100
+Running test for 100 simulation runs in group 15 of 100
+Running test for 100 simulation runs in group 16 of 100
+Running test for 100 simulation runs in group 17 of 100
+Running test for 100 simulation runs in group 18 of 100
+Running test for 100 simulation runs in group 19 of 100
+Running test for 100 simulation runs in group 20 of 100
+Running test for 100 simulation runs in group 21 of 100
+Running test for 100 simulation runs in group 22 of 100
+Running test for 100 simulation runs in group 23 of 100
+Running test for 100 simulation runs in group 24 of 100
+Running test for 100 simulation runs in group 25 of 100
+Running test for 100 simulation runs in group 26 of 100
+Running test for 100 simulation runs in group 27 of 100
+Running test for 100 simulation runs in group 28 of 100
+Running test for 100 simulation runs in group 29 of 100
+Running test for 100 simulation runs in group 30 of 100
+Running test for 100 simulation runs in group 31 of 100
+Running test for 100 simulation runs in group 32 of 100
+Running test for 100 simulation runs in group 33 of 100
+Running test for 100 simulation runs in group 34 of 100
+Running test for 100 simulation runs in group 35 of 100
+Running test for 100 simulation runs in group 36 of 100
+Running test for 100 simulation runs in group 37 of 100
+Running test for 100 simulation runs in group 38 of 100
+Running test for 100 simulation runs in group 39 of 100
+Running test for 100 simulation runs in group 40 of 100
+Running test for 100 simulation runs in group 41 of 100
+Running test for 100 simulation runs in group 42 of 100
+Running test for 100 simulation runs in group 43 of 100
+Running test for 100 simulation runs in group 44 of 100
+Running test for 100 simulation runs in group 45 of 100
+Running test for 100 simulation runs in group 46 of 100
+Running test for 100 simulation runs in group 47 of 100
+Running test for 100 simulation runs in group 48 of 100
+Running test for 100 simulation runs in group 49 of 100
+Running test for 100 simulation runs in group 50 of 100
+Running test for 100 simulation runs in group 51 of 100
+Running test for 100 simulation runs in group 52 of 100
+Running test for 100 simulation runs in group 53 of 100
+Running test for 100 simulation runs in group 54 of 100
+Running test for 100 simulation runs in group 55 of 100
+Running test for 100 simulation runs in group 56 of 100
+Running test for 100 simulation runs in group 57 of 100
+Running test for 100 simulation runs in group 58 of 100
+Running test for 100 simulation runs in group 59 of 100
+Running test for 100 simulation runs in group 60 of 100
+Running test for 100 simulation runs in group 61 of 100
+Running test for 100 simulation runs in group 62 of 100
+Running test for 100 simulation runs in group 63 of 100
+Running test for 100 simulation runs in group 64 of 100
+Running test for 100 simulation runs in group 65 of 100
+Running test for 100 simulation runs in group 66 of 100
+Running test for 100 simulation runs in group 67 of 100
+Running test for 100 simulation runs in group 68 of 100
+Running test for 100 simulation runs in group 69 of 100
+Running test for 100 simulation runs in group 70 of 100
+Running test for 100 simulation runs in group 71 of 100
+Running test for 100 simulation runs in group 72 of 100
+Running test for 100 simulation runs in group 73 of 100
+Running test for 100 simulation runs in group 74 of 100
+Running test for 100 simulation runs in group 75 of 100
+Running test for 100 simulation runs in group 76 of 100
+Running test for 100 simulation runs in group 77 of 100
+Running test for 100 simulation runs in group 78 of 100
+Running test for 100 simulation runs in group 79 of 100
+Running test for 100 simulation runs in group 80 of 100
+Running test for 100 simulation runs in group 81 of 100
+Running test for 100 simulation runs in group 82 of 100
+Running test for 100 simulation runs in group 83 of 100
+Running test for 100 simulation runs in group 84 of 100
+Running test for 100 simulation runs in group 85 of 100
+Running test for 100 simulation runs in group 86 of 100
+Running test for 100 simulation runs in group 87 of 100
+Running test for 100 simulation runs in group 88 of 100
+Running test for 100 simulation runs in group 89 of 100
+Running test for 100 simulation runs in group 90 of 100
+Running test for 100 simulation runs in group 91 of 100
+Running test for 100 simulation runs in group 92 of 100
+Running test for 100 simulation runs in group 93 of 100
+Running test for 100 simulation runs in group 94 of 100
+Running test for 100 simulation runs in group 95 of 100
+Running test for 100 simulation runs in group 96 of 100
+Running test for 100 simulation runs in group 97 of 100
+Running test for 100 simulation runs in group 98 of 100
+Running test for 100 simulation runs in group 99 of 100
+Running test for 100 simulation runs in group 100 of 100
+finished randomized testing
+  Run 1194 was a duplicate and has been thrown out of trace_list.txt
+  Run 1350 was a duplicate and has been thrown out of trace_list.txt
+  Run 1371 was a duplicate and has been thrown out of trace_list.txt
+  Run 2019 was a duplicate and has been thrown out of trace_list.txt
+  Run 2341 was a duplicate and has been thrown out of trace_list.txt
+  Run 2538 was a duplicate and has been thrown out of trace_list.txt
+  Run 2759 was a duplicate and has been thrown out of trace_list.txt
+  Run 2768 was a duplicate and has been thrown out of trace_list.txt
+  Run 2822 was a duplicate and has been thrown out of trace_list.txt
+  Run 2835 was a duplicate and has been thrown out of trace_list.txt
+  Run 3222 was a duplicate and has been thrown out of trace_list.txt
+  Run 3262 was a duplicate and has been thrown out of trace_list.txt
+  Run 3418 was a duplicate and has been thrown out of trace_list.txt
+  Run 3639 was a duplicate and has been thrown out of trace_list.txt
+  Run 3695 was a duplicate and has been thrown out of trace_list.txt
+  Run 3734 was a duplicate and has been thrown out of trace_list.txt
+  Run 3744 was a duplicate and has been thrown out of trace_list.txt
+  Run 3946 was a duplicate and has been thrown out of trace_list.txt
+  Run 4023 was a duplicate and has been thrown out of trace_list.txt
+  Run 4051 was a duplicate and has been thrown out of trace_list.txt
+  Run 4180 was a duplicate and has been thrown out of trace_list.txt
+  Run 4194 was a duplicate and has been thrown out of trace_list.txt
+  Run 4518 was a duplicate and has been thrown out of trace_list.txt
+  Run 4551 was a duplicate and has been thrown out of trace_list.txt
+  Run 4642 was a duplicate and has been thrown out of trace_list.txt
+  Run 4887 was a duplicate and has been thrown out of trace_list.txt
+  Run 5016 was a duplicate and has been thrown out of trace_list.txt
+  Run 5372 was a duplicate and has been thrown out of trace_list.txt
+  Run 5424 was a duplicate and has been thrown out of trace_list.txt
+  Run 5492 was a duplicate and has been thrown out of trace_list.txt
+  Run 5583 was a duplicate and has been thrown out of trace_list.txt
+  Run 5646 was a duplicate and has been thrown out of trace_list.txt
+  Run 5760 was a duplicate and has been thrown out of trace_list.txt
+  Run 5893 was a duplicate and has been thrown out of trace_list.txt
+  Run 5998 was a duplicate and has been thrown out of trace_list.txt
+  Run 6059 was a duplicate and has been thrown out of trace_list.txt
+  Run 6119 was a duplicate and has been thrown out of trace_list.txt
+  Run 6224 was a duplicate and has been thrown out of trace_list.txt
+  Run 6233 was a duplicate and has been thrown out of trace_list.txt
+  Run 6268 was a duplicate and has been thrown out of trace_list.txt
+  Run 6360 was a duplicate and has been thrown out of trace_list.txt
+  Run 6366 was a duplicate and has been thrown out of trace_list.txt
+  Run 6446 was a duplicate and has been thrown out of trace_list.txt
+  Run 6551 was a duplicate and has been thrown out of trace_list.txt
+  Run 6669 was a duplicate and has been thrown out of trace_list.txt
+  Run 6681 was a duplicate and has been thrown out of trace_list.txt
+  Run 6745 was a duplicate and has been thrown out of trace_list.txt
+  Run 6775 was a duplicate and has been thrown out of trace_list.txt
+  Run 6788 was a duplicate and has been thrown out of trace_list.txt
+  Run 6882 was a duplicate and has been thrown out of trace_list.txt
+  Run 6898 was a duplicate and has been thrown out of trace_list.txt
+  Run 6921 was a duplicate and has been thrown out of trace_list.txt
+  Run 7051 was a duplicate and has been thrown out of trace_list.txt
+  Run 7070 was a duplicate and has been thrown out of trace_list.txt
+  Run 7179 was a duplicate and has been thrown out of trace_list.txt
+  Run 7199 was a duplicate and has been thrown out of trace_list.txt
+  Run 7212 was a duplicate and has been thrown out of trace_list.txt
+  Run 7214 was a duplicate and has been thrown out of trace_list.txt
+  Run 7243 was a duplicate and has been thrown out of trace_list.txt
+  Run 7332 was a duplicate and has been thrown out of trace_list.txt
+  Run 7439 was a duplicate and has been thrown out of trace_list.txt
+  Run 7448 was a duplicate and has been thrown out of trace_list.txt
+  Run 7474 was a duplicate and has been thrown out of trace_list.txt
+  Run 7478 was a duplicate and has been thrown out of trace_list.txt
+  Run 7492 was a duplicate and has been thrown out of trace_list.txt
+  Run 7519 was a duplicate and has been thrown out of trace_list.txt
+  Run 7530 was a duplicate and has been thrown out of trace_list.txt
+  Run 7670 was a duplicate and has been thrown out of trace_list.txt
+  Run 7733 was a duplicate and has been thrown out of trace_list.txt
+  Run 7738 was a duplicate and has been thrown out of trace_list.txt
+  Run 7745 was a duplicate and has been thrown out of trace_list.txt
+  Run 7878 was a duplicate and has been thrown out of trace_list.txt
+  Run 7963 was a duplicate and has been thrown out of trace_list.txt
+  Run 7990 was a duplicate and has been thrown out of trace_list.txt
+  Run 8044 was a duplicate and has been thrown out of trace_list.txt
+  Run 8054 was a duplicate and has been thrown out of trace_list.txt
+  Run 8244 was a duplicate and has been thrown out of trace_list.txt
+  Run 8295 was a duplicate and has been thrown out of trace_list.txt
+  Run 8307 was a duplicate and has been thrown out of trace_list.txt
+  Run 8314 was a duplicate and has been thrown out of trace_list.txt
+  Run 8344 was a duplicate and has been thrown out of trace_list.txt
+  Run 8485 was a duplicate and has been thrown out of trace_list.txt
+  Run 8532 was a duplicate and has been thrown out of trace_list.txt
+  Run 8533 was a duplicate and has been thrown out of trace_list.txt
+  Run 8564 was a duplicate and has been thrown out of trace_list.txt
+  Run 8683 was a duplicate and has been thrown out of trace_list.txt
+  Run 8745 was a duplicate and has been thrown out of trace_list.txt
+  Run 8779 was a duplicate and has been thrown out of trace_list.txt
+  Run 8794 was a duplicate and has been thrown out of trace_list.txt
+  Run 8927 was a duplicate and has been thrown out of trace_list.txt
+  Run 8933 was a duplicate and has been thrown out of trace_list.txt
+  Run 8943 was a duplicate and has been thrown out of trace_list.txt
+  Run 8993 was a duplicate and has been thrown out of trace_list.txt
+  Run 9083 was a duplicate and has been thrown out of trace_list.txt
+  Run 9137 was a duplicate and has been thrown out of trace_list.txt
+  Run 9177 was a duplicate and has been thrown out of trace_list.txt
+  Run 9197 was a duplicate and has been thrown out of trace_list.txt
+  Run 9296 was a duplicate and has been thrown out of trace_list.txt
+  Run 9386 was a duplicate and has been thrown out of trace_list.txt
+  Run 9441 was a duplicate and has been thrown out of trace_list.txt
+  Run 9443 was a duplicate and has been thrown out of trace_list.txt
+  Run 9457 was a duplicate and has been thrown out of trace_list.txt
+  Run 9523 was a duplicate and has been thrown out of trace_list.txt
+  Run 9656 was a duplicate and has been thrown out of trace_list.txt
+  Run 9672 was a duplicate and has been thrown out of trace_list.txt
+  Run 9679 was a duplicate and has been thrown out of trace_list.txt
+  Run 9748 was a duplicate and has been thrown out of trace_list.txt
+  Run 9799 was a duplicate and has been thrown out of trace_list.txt
+  Run 9916 was a duplicate and has been thrown out of trace_list.txt
+  Run 9984 was a duplicate and has been thrown out of trace_list.txt
+
+The traces recorded and the information on those traces are stored in 'reaction_list.txt'
+
+The traces by themselves (i.e. for simulation and commuting) are found in 'trace_list.txt'
+Probability in this prefix: 1.569926e-51
+Running total probability:  1.569926e-51
+
+================================================================================
+Total Sum of Unique Path Probabilities: 1.569926e-51
+================================================================================
+
+
+
+
+Welcome to RAGTIMER. At present, this is two tools joined together. We are working on joining them together more seamlessly but appreciate your patience with this prototype tool.
+I will generate traces, then commute.
+I am assuming you have placed your model in the following files:
+model.ragtimer (in the RAGTIMER format; see README)
+model.prop (file with property without time constraints in first line, i.e., x=10 )
+model.sm (prism model file)
+model.csl (prism csl property)
+
+Running RAGTIMER trace generation
+/home/landonjefftaylor/combined_ragtimer/_ragtimer

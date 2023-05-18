@@ -2,7 +2,7 @@ model ../model.sm
 trace ../commute_traces.txt
 property CodY=20
 
-recursionBound 2
+recursionBound 10
 timeBound 100000
 flexbility 0.0
 terminate depth

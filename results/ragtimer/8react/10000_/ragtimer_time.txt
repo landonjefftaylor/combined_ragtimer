@@ -1,0 +1,2 @@
+1123.04user 97.15system 19:23.98elapsed 104%CPU (0avgtext+0avgdata 1557236maxresident)k
+0inputs+85800outputs (32major+39416642minor)pagefaults 0swaps

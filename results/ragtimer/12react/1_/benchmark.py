@@ -2,17 +2,17 @@ import subprocess
 import os
 from datetime import datetime
 
-#modelArr = ["12react", "6react", "8react", "2react"]
-#looseArr = ["", "loose"]
-#qtyArr = ["1", "10", "100", "1000", "10000"]
-#cycleArr = ["0", "2", "4"]
-#recBoundArr = ["2", "10", "20", "40", "80"]
+modelArr = ["12react", "6react", "8react", "2react"]
+looseArr = ["", "loose"]
+qtyArr = ["1", "10", "100", "1000", "10000"]
+cycleArr = ["0", "2", "4"]
+recBoundArr = ["2", "10", "20", "40", "80"]
 
-modelArr = ["12react"]
-looseArr = [""]
-qtyArr = ["1"]
-cycleArr = ["0"]
-recBoundArr = ["2"]
+#modelArr = ["12react"]
+#looseArr = [""]
+#qtyArr = ["1"]
+#cycleArr = ["0"]
+#recBoundArr = ["2"]
 
 # # Not commuting, just trace generation
 for model in modelArr:

@@ -1,0 +1,323 @@
+mkdir: cannot create directory ‘results/ragtimer/12react’: File exists
+mkdir: cannot create directory ‘results/ragtimer/12react/1_’: File exists
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/12react/12react.* .
+mv 12react.sm model.sm
+mv 12react.csl model.csl
+mv 12react.prop model.prop
+mv 12react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py  qty 1 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/12react/12react.* .
+mv 12react.sm model.sm
+mv 12react.csl model.csl
+mv 12react.prop model.prop
+mv 12react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py  qty 10 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/12react/12react.* .
+mv 12react.sm model.sm
+mv 12react.csl model.csl
+mv 12react.prop model.prop
+mv 12react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py  qty 100 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/12react/12react.* .
+mv 12react.sm model.sm
+mv 12react.csl model.csl
+mv 12react.prop model.prop
+mv 12react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py  qty 1000 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/12react/12react.* .
+mv 12react.sm model.sm
+mv 12react.csl model.csl
+mv 12react.prop model.prop
+mv 12react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py  qty 10000 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/12react/12react.* .
+mv 12react.sm model.sm
+mv 12react.csl model.csl
+mv 12react.prop model.prop
+mv 12react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py loose qty 1 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/12react/12react.* .
+mv 12react.sm model.sm
+mv 12react.csl model.csl
+mv 12react.prop model.prop
+mv 12react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py loose qty 10 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/12react/12react.* .
+mv 12react.sm model.sm
+mv 12react.csl model.csl
+mv 12react.prop model.prop
+mv 12react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py loose qty 100 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/12react/12react.* .
+mv 12react.sm model.sm
+mv 12react.csl model.csl
+mv 12react.prop model.prop
+mv 12react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py loose qty 1000 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/12react/12react.* .
+mv 12react.sm model.sm
+mv 12react.csl model.csl
+mv 12react.prop model.prop
+mv 12react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py loose qty 10000 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/6react/6react.* .
+mv 6react.sm model.sm
+mv 6react.csl model.csl
+mv 6react.prop model.prop
+mv 6react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py  qty 1 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/6react/6react.* .
+mv 6react.sm model.sm
+mv 6react.csl model.csl
+mv 6react.prop model.prop
+mv 6react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py  qty 10 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/6react/6react.* .
+mv 6react.sm model.sm
+mv 6react.csl model.csl
+mv 6react.prop model.prop
+mv 6react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py  qty 100 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/6react/6react.* .
+mv 6react.sm model.sm
+mv 6react.csl model.csl
+mv 6react.prop model.prop
+mv 6react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py  qty 1000 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/6react/6react.* .
+mv 6react.sm model.sm
+mv 6react.csl model.csl
+mv 6react.prop model.prop
+mv 6react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py  qty 10000 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/6react/6react.* .
+mv 6react.sm model.sm
+mv 6react.csl model.csl
+mv 6react.prop model.prop
+mv 6react.ragtimer model.ragtimer
+running /usr/bin/time -o ragtimer_time.txt python3 ragtimer.py loose qty 1 1> ragtimer_output.txt 2> /dev/null
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+cp models/6react/6react.* .
+mv 6react.sm model.sm
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt
+benchmark_output.txt
+commute_traces.txt
+prism_output.txt
+prism_time.txt
+ragtimer_output.txt
+ragtimer_time.txt

@@ -1,0 +1,1238 @@
+admin.sh
+artifact.sh
+bin
+classes
+depgraph.py
+genbash.py
+ignore.txt
+main.py
+Makefile
+prefixes.py
+prefix_parser.py
+__pycache__
+reaction_list.txt
+reactions_mod.py
+reactions_v5.py
+run_lots.sh
+src
+testprint.txt
+test.sh
+test_subp.py
+test_v2
+test_v2.cpp
+test_v2.dsc
+test_v2.h
+test_v2.ivy
+test_v2.txt
+test_v3
+test_v3.cpp
+test_v3.dsc
+test_v3.h
+test_v3.ivy
+trace_list.txt
+two.sh
+
+================================================================================
+Welcome to RAGTIMER for trace generation.
+This is a work in progress. Please submit bug reports.
+================================================================================
+
+Constructing a dependency graph
+Finished constructing a dependency graph, found these prefixes:
+r4 
+r6 r4 
+
+/home/landonjefftaylor/combined_ragtimer/_ragtimer
+Finding 1000
+For each prefix: 1000
+--------------------------------------------------
+Testing Prefix r4 r6 r4 
+--------------------------------------------------
+starting to run initial test
+finished initial test
+The iters recorded for this initial example is 104
+Running test for 100 simulation runs in group 1 of 10
+Running test for 100 simulation runs in group 2 of 10
+Running test for 100 simulation runs in group 3 of 10
+Running test for 100 simulation runs in group 4 of 10
+Running test for 100 simulation runs in group 5 of 10
+Running test for 100 simulation runs in group 6 of 10
+Running test for 100 simulation runs in group 7 of 10
+Running test for 100 simulation runs in group 8 of 10
+Running test for 100 simulation runs in group 9 of 10
+Running test for 100 simulation runs in group 10 of 10
+finished randomized testing
+Run 2 did not reach the target state
+
+Run 3 did not reach the target state
+
+Run 5 did not reach the target state
+
+Run 6 did not reach the target state
+
+Run 7 did not reach the target state
+
+Run 9 did not reach the target state
+
+Run 10 did not reach the target state
+
+Run 11 did not reach the target state
+
+Run 12 did not reach the target state
+
+Run 13 did not reach the target state
+
+Run 14 did not reach the target state
+
+Run 16 did not reach the target state
+
+Run 17 did not reach the target state
+
+Run 18 did not reach the target state
+
+Run 21 did not reach the target state
+
+Run 24 did not reach the target state
+
+Run 25 did not reach the target state
+
+Run 26 did not reach the target state
+
+Run 28 did not reach the target state
+
+Run 30 did not reach the target state
+
+Run 31 did not reach the target state
+
+Run 32 did not reach the target state
+
+Run 35 did not reach the target state
+
+Run 40 did not reach the target state
+
+Run 41 did not reach the target state
+
+Run 44 did not reach the target state
+
+Run 45 did not reach the target state
+
+Run 46 did not reach the target state
+
+Run 48 did not reach the target state
+
+Run 49 did not reach the target state
+
+Run 50 did not reach the target state
+
+Run 51 did not reach the target state
+
+Run 53 did not reach the target state
+
+Run 57 did not reach the target state
+
+Run 59 did not reach the target state
+
+Run 60 did not reach the target state
+
+Run 64 did not reach the target state
+
+Run 66 did not reach the target state
+
+Run 67 did not reach the target state
+
+Run 68 did not reach the target state
+
+Run 70 did not reach the target state
+
+Run 71 did not reach the target state
+
+Run 75 did not reach the target state
+
+Run 80 did not reach the target state
+
+Run 83 did not reach the target state
+
+Run 85 did not reach the target state
+
+Run 87 did not reach the target state
+
+Run 88 did not reach the target state
+
+Run 89 did not reach the target state
+
+Run 91 did not reach the target state
+
+Run 92 did not reach the target state
+
+Run 96 did not reach the target state
+
+Run 97 did not reach the target state
+
+Run 98 did not reach the target state
+
+Run 99 did not reach the target state
+
+Run 104 did not reach the target state
+
+Run 105 did not reach the target state
+
+Run 106 did not reach the target state
+
+Run 107 did not reach the target state
+
+Run 109 did not reach the target state
+
+Run 110 did not reach the target state
+
+Run 113 did not reach the target state
+
+Run 115 did not reach the target state
+
+Run 116 did not reach the target state
+
+Run 117 did not reach the target state
+
+Run 123 did not reach the target state
+
+Run 126 did not reach the target state
+
+Run 128 did not reach the target state
+
+Run 129 did not reach the target state
+
+Run 130 did not reach the target state
+
+Run 132 did not reach the target state
+
+Run 136 did not reach the target state
+
+Run 137 did not reach the target state
+
+Run 140 did not reach the target state
+
+Run 142 did not reach the target state
+
+Run 145 did not reach the target state
+
+Run 147 did not reach the target state
+
+Run 159 did not reach the target state
+
+Run 160 did not reach the target state
+
+Run 162 did not reach the target state
+
+Run 167 did not reach the target state
+
+Run 168 did not reach the target state
+
+Run 171 did not reach the target state
+
+Run 174 did not reach the target state
+
+Run 175 did not reach the target state
+
+Run 176 did not reach the target state
+
+Run 177 did not reach the target state
+
+Run 178 did not reach the target state
+
+Run 182 did not reach the target state
+
+Run 183 did not reach the target state
+
+Run 186 did not reach the target state
+
+Run 187 did not reach the target state
+
+Run 189 did not reach the target state
+
+Run 192 did not reach the target state
+
+Run 194 did not reach the target state
+
+Run 195 did not reach the target state
+
+Run 196 did not reach the target state
+
+Run 197 did not reach the target state
+
+Run 198 did not reach the target state
+
+Run 200 did not reach the target state
+
+Run 202 did not reach the target state
+
+Run 203 did not reach the target state
+
+Run 204 did not reach the target state
+
+Run 205 did not reach the target state
+
+Run 207 did not reach the target state
+
+Run 209 did not reach the target state
+
+Run 212 did not reach the target state
+
+Run 213 did not reach the target state
+
+Run 216 did not reach the target state
+
+Run 219 did not reach the target state
+
+Run 220 did not reach the target state
+
+Run 221 did not reach the target state
+
+Run 222 did not reach the target state
+
+Run 223 did not reach the target state
+
+Run 224 did not reach the target state
+
+Run 228 did not reach the target state
+
+Run 229 did not reach the target state
+
+Run 231 did not reach the target state
+
+Run 232 did not reach the target state
+
+Run 233 did not reach the target state
+
+Run 234 did not reach the target state
+
+Run 235 did not reach the target state
+
+Run 236 did not reach the target state
+
+Run 239 did not reach the target state
+
+Run 240 did not reach the target state
+
+Run 241 did not reach the target state
+
+Run 243 did not reach the target state
+
+Run 244 did not reach the target state
+
+Run 246 did not reach the target state
+
+Run 249 did not reach the target state
+
+Run 250 did not reach the target state
+
+Run 251 did not reach the target state
+
+Run 252 did not reach the target state
+
+Run 254 did not reach the target state
+
+Run 255 did not reach the target state
+
+Run 256 did not reach the target state
+
+Run 257 did not reach the target state
+
+Run 259 did not reach the target state
+
+Run 260 did not reach the target state
+
+Run 261 did not reach the target state
+
+Run 262 did not reach the target state
+
+Run 263 did not reach the target state
+
+Run 264 did not reach the target state
+
+Run 265 did not reach the target state
+
+Run 266 did not reach the target state
+
+Run 267 did not reach the target state
+
+Run 269 did not reach the target state
+
+Run 270 did not reach the target state
+
+Run 271 did not reach the target state
+
+Run 272 did not reach the target state
+
+Run 274 did not reach the target state
+
+Run 278 did not reach the target state
+
+Run 279 did not reach the target state
+
+Run 280 did not reach the target state
+
+Run 281 did not reach the target state
+
+Run 282 did not reach the target state
+
+Run 283 did not reach the target state
+
+Run 289 did not reach the target state
+
+Run 290 did not reach the target state
+
+Run 292 did not reach the target state
+
+Run 293 did not reach the target state
+
+Run 295 did not reach the target state
+
+Run 296 did not reach the target state
+
+Run 297 did not reach the target state
+
+Run 298 did not reach the target state
+
+Run 299 did not reach the target state
+
+Run 300 did not reach the target state
+
+Run 301 did not reach the target state
+
+Run 302 did not reach the target state
+
+Run 303 did not reach the target state
+
+Run 304 did not reach the target state
+
+Run 305 did not reach the target state
+
+Run 306 did not reach the target state
+
+Run 308 did not reach the target state
+
+Run 310 did not reach the target state
+
+Run 312 did not reach the target state
+
+Run 313 did not reach the target state
+
+Run 314 did not reach the target state
+
+Run 315 did not reach the target state
+
+Run 316 did not reach the target state
+
+Run 317 did not reach the target state
+
+Run 318 did not reach the target state
+
+Run 319 did not reach the target state
+
+Run 321 did not reach the target state
+
+Run 322 did not reach the target state
+
+Run 323 did not reach the target state
+
+Run 326 did not reach the target state
+
+Run 327 did not reach the target state
+
+Run 330 did not reach the target state
+
+Run 333 did not reach the target state
+
+Run 335 did not reach the target state
+
+Run 336 did not reach the target state
+
+Run 339 did not reach the target state
+
+Run 344 did not reach the target state
+
+Run 347 did not reach the target state
+
+Run 350 did not reach the target state
+
+Run 351 did not reach the target state
+
+Run 352 did not reach the target state
+
+Run 354 did not reach the target state
+
+Run 355 did not reach the target state
+
+Run 356 did not reach the target state
+
+Run 357 did not reach the target state
+
+Run 361 did not reach the target state
+
+Run 362 did not reach the target state
+
+Run 363 did not reach the target state
+
+Run 365 did not reach the target state
+
+Run 366 did not reach the target state
+
+Run 367 did not reach the target state
+
+Run 372 did not reach the target state
+
+Run 374 did not reach the target state
+
+Run 376 did not reach the target state
+
+Run 377 did not reach the target state
+
+Run 378 did not reach the target state
+
+Run 379 did not reach the target state
+
+Run 381 did not reach the target state
+
+Run 383 did not reach the target state
+
+Run 384 did not reach the target state
+
+Run 387 did not reach the target state
+
+Run 388 did not reach the target state
+
+Run 392 did not reach the target state
+
+Run 395 did not reach the target state
+
+Run 396 did not reach the target state
+
+Run 397 did not reach the target state
+
+Run 398 did not reach the target state
+
+Run 401 did not reach the target state
+
+Run 402 did not reach the target state
+
+Run 404 did not reach the target state
+
+Run 406 did not reach the target state
+
+Run 408 did not reach the target state
+
+Run 410 did not reach the target state
+
+Run 411 did not reach the target state
+
+Run 412 did not reach the target state
+
+Run 416 did not reach the target state
+
+Run 418 did not reach the target state
+
+Run 420 did not reach the target state
+
+Run 422 did not reach the target state
+
+Run 425 did not reach the target state
+
+Run 429 did not reach the target state
+
+Run 433 did not reach the target state
+
+Run 434 did not reach the target state
+
+Run 436 did not reach the target state
+
+Run 437 did not reach the target state
+
+Run 438 did not reach the target state
+
+Run 441 did not reach the target state
+
+Run 442 did not reach the target state
+
+Run 444 did not reach the target state
+
+Run 446 did not reach the target state
+
+Run 449 did not reach the target state
+
+Run 450 did not reach the target state
+
+Run 451 did not reach the target state
+
+Run 453 did not reach the target state
+
+Run 456 did not reach the target state
+
+Run 457 did not reach the target state
+
+Run 458 did not reach the target state
+
+Run 461 did not reach the target state
+
+Run 462 did not reach the target state
+
+Run 465 did not reach the target state
+
+Run 470 did not reach the target state
+
+Run 471 did not reach the target state
+
+Run 476 did not reach the target state
+
+Run 477 did not reach the target state
+
+Run 478 did not reach the target state
+
+Run 479 did not reach the target state
+
+Run 482 did not reach the target state
+
+Run 483 did not reach the target state
+
+Run 484 did not reach the target state
+
+Run 486 did not reach the target state
+
+Run 487 did not reach the target state
+
+Run 490 did not reach the target state
+
+Run 494 did not reach the target state
+
+Run 495 did not reach the target state
+
+Run 496 did not reach the target state
+
+Run 497 did not reach the target state
+
+Run 498 did not reach the target state
+
+Run 499 did not reach the target state
+
+Run 501 did not reach the target state
+
+Run 502 did not reach the target state
+
+Run 503 did not reach the target state
+
+Run 504 did not reach the target state
+
+Run 505 did not reach the target state
+
+Run 506 did not reach the target state
+
+Run 507 did not reach the target state
+
+Run 510 did not reach the target state
+
+Run 512 did not reach the target state
+
+Run 516 did not reach the target state
+
+Run 518 did not reach the target state
+
+Run 519 did not reach the target state
+
+Run 520 did not reach the target state
+
+Run 521 did not reach the target state
+
+Run 522 did not reach the target state
+
+Run 523 did not reach the target state
+
+Run 525 did not reach the target state
+
+Run 527 did not reach the target state
+
+Run 528 did not reach the target state
+
+Run 530 did not reach the target state
+
+Run 531 did not reach the target state
+
+Run 533 did not reach the target state
+
+Run 534 did not reach the target state
+
+Run 535 did not reach the target state
+
+Run 537 did not reach the target state
+
+Run 538 did not reach the target state
+
+Run 539 did not reach the target state
+
+Run 540 did not reach the target state
+
+Run 541 did not reach the target state
+
+Run 542 did not reach the target state
+
+Run 544 did not reach the target state
+
+Run 545 did not reach the target state
+
+Run 546 did not reach the target state
+
+Run 548 did not reach the target state
+
+Run 549 did not reach the target state
+
+Run 550 did not reach the target state
+
+Run 553 did not reach the target state
+
+Run 554 did not reach the target state
+
+Run 556 did not reach the target state
+
+Run 557 did not reach the target state
+
+Run 558 did not reach the target state
+
+Run 559 did not reach the target state
+
+Run 561 did not reach the target state
+
+Run 563 did not reach the target state
+
+Run 565 did not reach the target state
+
+Run 566 did not reach the target state
+
+Run 567 did not reach the target state
+
+Run 568 did not reach the target state
+
+Run 569 did not reach the target state
+
+Run 571 did not reach the target state
+
+Run 572 did not reach the target state
+
+Run 573 did not reach the target state
+
+Run 575 did not reach the target state
+
+Run 578 did not reach the target state
+
+Run 581 did not reach the target state
+
+Run 582 did not reach the target state
+
+Run 583 did not reach the target state
+
+Run 585 did not reach the target state
+
+Run 586 did not reach the target state
+
+Run 587 did not reach the target state
+
+Run 589 did not reach the target state
+
+Run 590 did not reach the target state
+
+Run 591 did not reach the target state
+
+Run 593 did not reach the target state
+
+Run 594 did not reach the target state
+
+Run 595 did not reach the target state
+
+Run 597 did not reach the target state
+
+Run 599 did not reach the target state
+
+Run 600 did not reach the target state
+
+Run 602 did not reach the target state
+
+Run 603 did not reach the target state
+
+Run 604 did not reach the target state
+
+Run 607 did not reach the target state
+
+Run 608 did not reach the target state
+
+Run 609 did not reach the target state
+
+Run 610 did not reach the target state
+
+Run 612 did not reach the target state
+
+Run 613 did not reach the target state
+
+Run 614 did not reach the target state
+
+Run 615 did not reach the target state
+
+Run 616 did not reach the target state
+
+Run 617 did not reach the target state
+
+Run 618 did not reach the target state
+
+Run 619 did not reach the target state
+
+Run 620 did not reach the target state
+
+Run 623 did not reach the target state
+
+Run 624 did not reach the target state
+
+Run 625 did not reach the target state
+
+Run 626 did not reach the target state
+
+Run 630 did not reach the target state
+
+Run 631 did not reach the target state
+
+Run 633 did not reach the target state
+
+Run 634 did not reach the target state
+
+Run 635 did not reach the target state
+
+Run 636 did not reach the target state
+
+Run 637 did not reach the target state
+
+Run 639 did not reach the target state
+
+Run 640 did not reach the target state
+
+Run 641 did not reach the target state
+
+Run 642 did not reach the target state
+
+Run 643 did not reach the target state
+
+Run 644 did not reach the target state
+
+Run 645 did not reach the target state
+
+Run 647 did not reach the target state
+
+Run 650 did not reach the target state
+
+Run 652 did not reach the target state
+
+Run 653 did not reach the target state
+
+Run 654 did not reach the target state
+
+Run 656 did not reach the target state
+
+Run 660 did not reach the target state
+
+Run 661 did not reach the target state
+
+Run 662 did not reach the target state
+
+Run 666 did not reach the target state
+
+Run 667 did not reach the target state
+
+Run 668 did not reach the target state
+
+Run 669 did not reach the target state
+
+Run 671 did not reach the target state
+
+Run 674 did not reach the target state
+
+Run 675 did not reach the target state
+
+Run 676 did not reach the target state
+
+Run 677 did not reach the target state
+
+Run 679 did not reach the target state
+
+Run 681 did not reach the target state
+
+Run 683 did not reach the target state
+
+Run 684 did not reach the target state
+
+Run 685 did not reach the target state
+
+Run 686 did not reach the target state
+
+Run 688 did not reach the target state
+
+Run 689 did not reach the target state
+
+Run 691 did not reach the target state
+
+Run 697 did not reach the target state
+
+Run 698 did not reach the target state
+
+Run 699 did not reach the target state
+
+Run 701 did not reach the target state
+
+Run 702 did not reach the target state
+
+Run 706 did not reach the target state
+
+Run 708 did not reach the target state
+
+Run 710 did not reach the target state
+
+Run 711 did not reach the target state
+
+Run 713 did not reach the target state
+
+Run 714 did not reach the target state
+
+Run 715 did not reach the target state
+
+Run 719 did not reach the target state
+
+Run 721 did not reach the target state
+
+Run 724 did not reach the target state
+
+Run 727 did not reach the target state
+
+Run 728 did not reach the target state
+
+Run 729 did not reach the target state
+
+Run 732 did not reach the target state
+
+Run 735 did not reach the target state
+
+Run 737 did not reach the target state
+
+Run 738 did not reach the target state
+
+Run 740 did not reach the target state
+
+Run 742 did not reach the target state
+
+Run 743 did not reach the target state
+
+Run 746 did not reach the target state
+
+Run 748 did not reach the target state
+
+Run 753 did not reach the target state
+
+Run 754 did not reach the target state
+
+Run 755 did not reach the target state
+
+Run 756 did not reach the target state
+
+Run 757 did not reach the target state
+
+Run 759 did not reach the target state
+
+Run 760 did not reach the target state
+
+Run 761 did not reach the target state
+
+Run 762 did not reach the target state
+
+Run 763 did not reach the target state
+
+Run 764 did not reach the target state
+
+Run 767 did not reach the target state
+
+Run 769 did not reach the target state
+
+Run 770 did not reach the target state
+
+Run 771 did not reach the target state
+
+Run 772 did not reach the target state
+
+Run 774 did not reach the target state
+
+Run 775 did not reach the target state
+
+Run 777 did not reach the target state
+
+Run 781 did not reach the target state
+
+Run 782 did not reach the target state
+
+Run 783 did not reach the target state
+
+Run 784 did not reach the target state
+
+Run 786 did not reach the target state
+
+Run 787 did not reach the target state
+
+Run 794 did not reach the target state
+
+Run 797 did not reach the target state
+
+Run 798 did not reach the target state
+
+Run 799 did not reach the target state
+
+Run 804 did not reach the target state
+
+Run 805 did not reach the target state
+
+Run 808 did not reach the target state
+
+Run 809 did not reach the target state
+
+Run 810 did not reach the target state
+
+Run 811 did not reach the target state
+
+Run 812 did not reach the target state
+
+Run 813 did not reach the target state
+
+Run 815 did not reach the target state
+
+Run 816 did not reach the target state
+
+Run 818 did not reach the target state
+
+Run 820 did not reach the target state
+
+Run 826 did not reach the target state
+
+Run 829 did not reach the target state
+
+Run 832 did not reach the target state
+
+Run 833 did not reach the target state
+
+Run 834 did not reach the target state
+
+Run 835 did not reach the target state
+
+Run 836 did not reach the target state
+
+Run 837 did not reach the target state
+
+Run 838 did not reach the target state
+
+Run 840 did not reach the target state
+
+Run 842 did not reach the target state
+
+Run 843 did not reach the target state
+
+Run 847 did not reach the target state
+
+Run 849 did not reach the target state
+
+Run 852 did not reach the target state
+
+Run 853 did not reach the target state
+
+Run 854 did not reach the target state
+
+Run 857 did not reach the target state
+
+Run 859 did not reach the target state
+
+Run 861 did not reach the target state
+
+Run 863 did not reach the target state
+
+Run 864 did not reach the target state
+
+Run 866 did not reach the target state
+
+Run 868 did not reach the target state
+
+Run 869 did not reach the target state
+
+Run 870 did not reach the target state
+
+Run 871 did not reach the target state
+
+Run 873 did not reach the target state
+
+Run 874 did not reach the target state
+
+Run 877 did not reach the target state
+
+Run 878 did not reach the target state
+
+Run 881 did not reach the target state
+
+Run 883 did not reach the target state
+
+Run 884 did not reach the target state
+
+Run 888 did not reach the target state
+
+Run 889 did not reach the target state
+
+Run 892 did not reach the target state
+
+Run 895 did not reach the target state
+
+Run 898 did not reach the target state
+
+Run 899 did not reach the target state
+
+Run 900 did not reach the target state
+
+Run 901 did not reach the target state
+
+Run 902 did not reach the target state
+
+Run 903 did not reach the target state
+
+Run 905 did not reach the target state
+
+Run 907 did not reach the target state
+
+Run 908 did not reach the target state
+
+Run 912 did not reach the target state
+
+Run 915 did not reach the target state
+
+Run 918 did not reach the target state
+
+Run 919 did not reach the target state
+
+Run 920 did not reach the target state
+
+Run 921 did not reach the target state
+
+Run 923 did not reach the target state
+
+Run 924 did not reach the target state
+
+Run 925 did not reach the target state
+
+Run 927 did not reach the target state
+
+Run 928 did not reach the target state
+
+Run 930 did not reach the target state
+
+Run 932 did not reach the target state
+
+Run 933 did not reach the target state
+
+Run 934 did not reach the target state
+
+Run 936 did not reach the target state
+
+Run 937 did not reach the target state
+
+Run 939 did not reach the target state
+
+Run 940 did not reach the target state
+
+Run 941 did not reach the target state
+
+Run 942 did not reach the target state
+
+Run 943 did not reach the target state
+
+Run 944 did not reach the target state
+
+Run 946 did not reach the target state
+
+Run 947 did not reach the target state
+
+Run 951 did not reach the target state
+
+Run 952 did not reach the target state
+
+Run 953 did not reach the target state
+
+Run 954 did not reach the target state
+
+Run 955 did not reach the target state
+
+Run 956 did not reach the target state
+
+Run 957 did not reach the target state
+
+Run 959 did not reach the target state
+
+Run 960 did not reach the target state
+
+Run 962 did not reach the target state
+
+Run 965 did not reach the target state
+
+Run 966 did not reach the target state
+
+Run 967 did not reach the target state
+
+Run 968 did not reach the target state
+
+Run 970 did not reach the target state
+
+Run 971 did not reach the target state
+
+Run 972 did not reach the target state
+
+Run 973 did not reach the target state
+
+Run 976 did not reach the target state
+
+Run 978 did not reach the target state
+
+Run 981 did not reach the target state
+
+Run 982 did not reach the target state
+
+Run 983 did not reach the target state
+
+Run 985 did not reach the target state
+
+Run 986 did not reach the target state
+
+Run 988 did not reach the target state
+
+Run 992 did not reach the target state
+
+Run 996 did not reach the target state
+
+Run 997 did not reach the target state
+
+Run 1000 did not reach the target state
+
+
+The traces recorded and the information on those traces are stored in 'reaction_list.txt'
+
+The traces by themselves (i.e. for simulation and commuting) are found in 'trace_list.txt'
+Probability in this prefix: 9.226225e-63
+Running total probability:  9.226225e-63
+
+================================================================================
+Total Sum of Unique Path Probabilities: 9.226225e-63
+================================================================================
+
+
+
+
+Welcome to RAGTIMER. At present, this is two tools joined together. We are working on joining them together more seamlessly but appreciate your patience with this prototype tool.
+I will generate traces, then commute.
+I am assuming you have placed your model in the following files:
+model.ragtimer (in the RAGTIMER format; see README)
+model.prop (file with property without time constraints in first line, i.e., x=10 )
+model.sm (prism model file)
+model.csl (prism csl property)
+
+Running RAGTIMER trace generation
+/home/landonjefftaylor/combined_ragtimer/_ragtimer
