@@ -42,16 +42,190 @@ Finished constructing a dependency graph, found these prefixes:
 R1 
 
 /home/landonjefftaylor/combined_ragtimer/_ragtimer
-Finding 1
-For each prefix: 1
+Finding 100
+For each prefix: 100
 --------------------------------------------------
 Testing Prefix R1 
 --------------------------------------------------
 starting to run initial test
 finished initial test
-The iters recorded for this initial example is 10
-Running test for 1 simulation runs in group 1 of 1
+The iters recorded for this initial example is 56
+Running test for 100 simulation runs in group 1 of 1
 finished randomized testing
+Run 1 did not reach the target state
+
+Run 2 did not reach the target state
+
+Run 3 did not reach the target state
+
+Run 4 did not reach the target state
+
+Run 5 did not reach the target state
+
+Run 6 did not reach the target state
+
+Run 7 did not reach the target state
+
+Run 8 did not reach the target state
+
+Run 9 did not reach the target state
+
+Run 10 did not reach the target state
+
+Run 11 did not reach the target state
+
+Run 12 did not reach the target state
+
+Run 13 did not reach the target state
+
+Run 14 did not reach the target state
+
+Run 16 did not reach the target state
+
+Run 19 did not reach the target state
+
+Run 20 did not reach the target state
+
+Run 24 did not reach the target state
+
+Run 25 did not reach the target state
+
+Run 26 did not reach the target state
+
+Run 27 did not reach the target state
+
+Run 28 did not reach the target state
+
+Run 29 did not reach the target state
+
+Run 30 did not reach the target state
+
+Run 31 did not reach the target state
+
+Run 32 did not reach the target state
+
+Run 33 did not reach the target state
+
+Run 34 did not reach the target state
+
+Run 36 did not reach the target state
+
+Run 37 did not reach the target state
+
+Run 39 did not reach the target state
+
+Run 40 did not reach the target state
+
+Run 41 did not reach the target state
+
+Run 42 did not reach the target state
+
+Run 43 did not reach the target state
+
+Run 44 did not reach the target state
+
+Run 45 did not reach the target state
+
+Run 46 did not reach the target state
+
+Run 47 did not reach the target state
+
+Run 49 did not reach the target state
+
+Run 50 did not reach the target state
+
+Run 51 did not reach the target state
+
+Run 52 did not reach the target state
+
+Run 53 did not reach the target state
+
+Run 54 did not reach the target state
+
+Run 55 did not reach the target state
+
+Run 56 did not reach the target state
+
+Run 57 did not reach the target state
+
+Run 58 did not reach the target state
+
+Run 60 did not reach the target state
+
+Run 61 did not reach the target state
+
+Run 62 did not reach the target state
+
+Run 63 did not reach the target state
+
+Run 64 did not reach the target state
+
+Run 65 did not reach the target state
+
+Run 66 did not reach the target state
+
+Run 67 did not reach the target state
+
+Run 68 did not reach the target state
+
+Run 69 did not reach the target state
+
+Run 70 did not reach the target state
+
+Run 71 did not reach the target state
+
+Run 72 did not reach the target state
+
+Run 73 did not reach the target state
+
+Run 74 did not reach the target state
+
+Run 76 did not reach the target state
+
+Run 77 did not reach the target state
+
+Run 78 did not reach the target state
+
+Run 79 did not reach the target state
+
+Run 80 did not reach the target state
+
+Run 81 did not reach the target state
+
+Run 82 did not reach the target state
+
+Run 84 did not reach the target state
+
+Run 85 did not reach the target state
+
+Run 86 did not reach the target state
+
+Run 87 did not reach the target state
+
+Run 88 did not reach the target state
+
+Run 89 did not reach the target state
+
+Run 90 did not reach the target state
+
+Run 91 did not reach the target state
+
+Run 92 did not reach the target state
+
+Run 93 did not reach the target state
+
+Run 94 did not reach the target state
+
+Run 95 did not reach the target state
+
+Run 96 did not reach the target state
+
+Run 97 did not reach the target state
+
+Run 99 did not reach the target state
+
+Run 100 did not reach the target state
+
 
 The traces recorded and the information on those traces are stored in 'reaction_list.txt'
 
