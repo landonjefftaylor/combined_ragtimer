@@ -80,3 +80,42 @@ Verbose mode disabled
 Prism model and property loaded succesfully.
 Iterating through each input trace.
 Expect this to run silently for a moment.
+Processed 1 paths with a state count of 18689
+Removed 7657 dead-end states and 0 probability sink states (total 7657 states).
+Removed 21256 corresponding transitions.
+
+Final Count:
+11032 states
+80182 transitions
+
+Establishing an absorbing state.
+Begin printing model files.
+Now printing 1 paths to PRISM model files.
+Now printing 1 paths to STORM model files.
+---------------------------------------
+BEGIN ERROR CHECKING
+If an inconsistency is found in the state space, its details will be provided here.
+Otherwise, assume the generated state-space is error-free.
+This is an added confidence booster for the probability results.
+
+END ERROR CHECKING
+---------------------------------------
+Finished! Processed 1 paths.
+Max Memory: 1280143368 bytes
+Max Memory: 1280143 KB
+Max Memory: 1280 MB
+Max Memory: 1 GB
+Welcome to RAGTIMER. At present, this is two tools joined together. We are working on joining them together more seamlessly but appreciate your patience with this prototype tool.
+I will generate traces, then commute.
+I am assuming you have placed your model in the following files:
+model.ragtimer (in the RAGTIMER format; see README)
+model.prop (file with property without time constraints in first line, i.e., x=10 )
+model.sm (prism model file)
+model.csl (prism csl property)
+
+_commute/options.txt
+Running RAGTIMER trace generation
+/home/landonjefftaylor/combined_ragtimer/_ragtimer
+Starting Commuting
+Look for output files _commute/prism.* or _commute/storm.*
+You can use these files in your favorite model checker.
